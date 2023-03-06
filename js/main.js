@@ -73,11 +73,11 @@ var loader = new THREE.TextureLoader();
 var file_loader = new THREE.FileLoader();
 // loader.load('https://s3.amazonaws.com/duhaime/blog/tsne-webgl/data/image_tsne_projections.json', function(data) {
 if (true) {
-file_loader.load('font-coordinates-v2.json', function( obj ) {
+file_loader.load('font-coordinates-v3.json', function( obj ) {
   imagePositions = JSON.parse(obj);
   let fonts = Object.keys(imagePositions);
   
-  for (let i = 0; i < 1000; i++) {
+  for (let i = 0; i < fonts.length; i++) {
     // Load an image file into a custom material
     var material = new THREE.MeshLambertMaterial({
       map: loader.load(fonts[i])
