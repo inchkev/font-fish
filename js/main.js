@@ -33,7 +33,7 @@ var camera = new THREE.PerspectiveCamera(
 // Finally, set the camera's position
 //camera.position.z = 5500;
 //camera.position.y = -100;
-camera.position.z = 180;
+camera.position.z = 120;
 //camera.position.y = -100;
 
 /**
@@ -73,7 +73,7 @@ var loader = new THREE.TextureLoader();
 var file_loader = new THREE.FileLoader();
 // loader.load('https://s3.amazonaws.com/duhaime/blog/tsne-webgl/data/image_tsne_projections.json', function(data) {
 if (true) {
-file_loader.load('font-coordinates-v1.json', function( obj ) {
+file_loader.load('font-coordinates-v2.json', function( obj ) {
   imagePositions = JSON.parse(obj);
   let fonts = Object.keys(imagePositions);
   
