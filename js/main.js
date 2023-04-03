@@ -73,7 +73,7 @@ var loader = new THREE.TextureLoader();
 var file_loader = new THREE.FileLoader();
 // loader.load('https://s3.amazonaws.com/duhaime/blog/tsne-webgl/data/image_tsne_projections.json', function(data) {
 if (true) {
-file_loader.load('font-coordinates-v3.json', function( obj ) {
+file_loader.load('font-coordinates-v3b.json', function( obj ) {
   imagePositions = JSON.parse(obj);
   let fonts = Object.keys(imagePositions);
   
@@ -93,7 +93,7 @@ file_loader.load('font-coordinates-v3.json', function( obj ) {
 
     // set the position of the image mesh in the x,y,z dimensions
     var [x, y] = imagePositions[fonts[i]];
-    mesh.position.set(x, y, (i % 5)/2.0);
+    mesh.position.set(x, y, (i % 5)*2.0);
 
     // add the image to the scene
     scene.add(mesh);
@@ -106,10 +106,11 @@ file_loader.load('font-coordinates-v3.json', function( obj ) {
 **/
 
 // Add a point light with #fff color, .7 intensity, and 0 distance
-var light = new THREE.PointLight( 0xffffff, 1, 0 );
+// var light = new THREE.PointLight( 0xffffff, 1, 0 );
+var light = new THREE.AmbientLight( 0xffffff, 1, 0 );
 
 // Specify the light's position
-light.position.set(1, 1, 100 );
+// light.position.set(1, 1, 100 );
 
 // Add the light to the scene
 scene.add(light);
@@ -139,6 +140,7 @@ window.addEventListener('resize', function() {
 // The main animation function that re-renders the scene each animation frame
 function animate() {
   requestAnimationFrame( animate );
+  renderer.setClearColor (0xffffff, 0);
   renderer.render( scene, camera );
   controls.update();
 }
