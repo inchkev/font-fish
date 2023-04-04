@@ -1,0 +1,4406 @@
+{
+    "samples/NotoSansKharoshthi-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/LondrinaSolid-Regular.png": [
+        "DISPLAY",
+        0.703601108033241
+    ],
+    "samples/Shrikhand-Regular.png": [
+        "DISPLAY",
+        0.7772795216741405
+    ],
+    "samples/XanhMono-Regular.png": [
+        "MONOSPACE",
+        0.7297297297297297
+    ],
+    "samples/LibreBarcode39Text-Regular.png": [
+        "DISPLAY",
+        0.6779661016949152
+    ],
+    "samples/AlmendraDisplay-Regular.png": [
+        "DISPLAY",
+        0.7582582582582582
+    ],
+    "samples/SuezOne-Regular.png": [
+        "SERIF",
+        0.7759643916913946
+    ],
+    "samples/NotoSansHatran-Regular.png": [
+        "SANS_SERIF",
+        0.7339449541284404
+    ],
+    "samples/Shizuru-Regular.png": [
+        "DISPLAY",
+        0.5714285714285714
+    ],
+    "samples/ZenKakuGothicAntique-Regular.png": [
+        "SANS_SERIF",
+        0.6842857142857143
+    ],
+    "samples/JimNightshade-Regular.png": [
+        "HANDWRITING",
+        0.7536466774716369
+    ],
+    "samples/YujiSyuku-Regular.png": [
+        "SERIF",
+        0.7161629434954008
+    ],
+    "samples/LoversQuarrel-Regular.png": [
+        "HANDWRITING",
+        0.44991789819376027
+    ],
+    "samples/Knewave-Regular.png": [
+        "DISPLAY",
+        0.6371794871794871
+    ],
+    "samples/Comforter-Regular.png": [
+        "HANDWRITING",
+        0.5333333333333333
+    ],
+    "samples/Yomogi-Regular.png": [
+        "HANDWRITING",
+        0.6597222222222222
+    ],
+    "samples/VesperLibre-Regular.png": [
+        "SERIF",
+        0.6864161849710982
+    ],
+    "samples/Katibeh-Regular.png": [
+        "DISPLAY",
+        0.7142857142857143
+    ],
+    "samples/CabinCondensed-Regular.png": [
+        "SANS_SERIF",
+        0.7
+    ],
+    "samples/RumRaisin-Regular.png": [
+        "SANS_SERIF",
+        0.762619372442019
+    ],
+    "samples/RedactedScript-Regular.png": [
+        "DISPLAY",
+        0.6253561253561254
+    ],
+    "samples/BioRhymeExpanded-Regular.png": [
+        "SERIF",
+        0.6865889212827988
+    ],
+    "samples/MrsSheppards-Regular.png": [
+        "HANDWRITING",
+        0.43051359516616317
+    ],
+    "samples/Trochut-Regular.png": [
+        "DISPLAY",
+        0.6811594202898551
+    ],
+    "samples/CreteRound-Regular.png": [
+        "SERIF",
+        0.7290132547864506
+    ],
+    "samples/Wellfleet-Regular.png": [
+        "DISPLAY",
+        0.4866449511400652
+    ],
+    "samples/GrapeNuts-Regular.png": [
+        "HANDWRITING",
+        0.6186440677966102
+    ],
+    "samples/Biryani-Regular.png": [
+        "SANS_SERIF",
+        0.7427440633245382
+    ],
+    "samples/ScheherazadeNew-Regular.png": [
+        "SERIF",
+        0.6615087040618955
+    ],
+    "samples/Sevillana-Regular.png": [
+        "DISPLAY",
+        0.5122096486003573
+    ],
+    "samples/SassyFrass-Regular.png": [
+        "HANDWRITING",
+        0.4
+    ],
+    "samples/NotoSansCuneiform-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/Offside-Regular.png": [
+        "DISPLAY",
+        0.8175675675675675
+    ],
+    "samples/Eater-Regular.png": [
+        "DISPLAY",
+        0.9866975130133024
+    ],
+    "samples/Inika-Regular.png": [
+        "SERIF",
+        0.7271428571428571
+    ],
+    "samples/Ribeye-Regular.png": [
+        "DISPLAY",
+        0.7116029510395707
+    ],
+    "samples/MontserratSubrayada-Regular.png": [
+        "SANS_SERIF",
+        1.0
+    ],
+    "samples/MrsSaintDelafield-Regular.png": [
+        "HANDWRITING",
+        0.3163841807909605
+    ],
+    "samples/Dekko-Regular.png": [
+        "HANDWRITING",
+        0.7769784172661871
+    ],
+    "samples/AutourOne-Regular.png": [
+        "DISPLAY",
+        0.7623318385650224
+    ],
+    "samples/IMFELLDoublePica-Regular.png": [
+        "SERIF",
+        0.6136514247846255
+    ],
+    "samples/Frijole-Regular.png": [
+        "DISPLAY",
+        0.9035532994923858
+    ],
+    "samples/GrandHotel-Regular.png": [
+        "HANDWRITING",
+        0.5599721059972106
+    ],
+    "samples/Calistoga-Regular.png": [
+        "DISPLAY",
+        0.7593123209169055
+    ],
+    "samples/Explora-Regular.png": [
+        "HANDWRITING",
+        0.5996309963099631
+    ],
+    "samples/Stalemate-Regular.png": [
+        "HANDWRITING",
+        0.35909393737508327
+    ],
+    "samples/ShareTech-Regular.png": [
+        "SANS_SERIF",
+        0.7142857142857143
+    ],
+    "samples/BarlowSemiCondensed-Regular.png": [
+        "SANS_SERIF",
+        0.7228571428571429
+    ],
+    "samples/MetalMania-Regular.png": [
+        "DISPLAY",
+        0.7560975609756098
+    ],
+    "samples/Sitara-Regular.png": [
+        "SERIF",
+        0.7510259917920656
+    ],
+    "samples/Bokor-Regular.png": [
+        "DISPLAY",
+        0.7510259917920656
+    ],
+    "samples/NotoSansTaiViet-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/IBMPlexSansJP-Regular.png": [
+        "SANS_SERIF",
+        0.73806275579809
+    ],
+    "samples/CabinSketch-Regular.png": [
+        "DISPLAY",
+        0.7745398773006135
+    ],
+    "samples/SreeKrushnadevaraya-Regular.png": [
+        "SERIF",
+        0.6691176470588235
+    ],
+    "samples/Mukta-Regular.png": [
+        "SANS_SERIF",
+        0.7428571428571429
+    ],
+    "samples/Overlock-Regular.png": [
+        "DISPLAY",
+        0.8116883116883117
+    ],
+    "samples/Ruthie-Regular.png": [
+        "HANDWRITING",
+        0.44935805991440797
+    ],
+    "samples/AnticSlab-Regular.png": [
+        "SERIF",
+        0.7142857142857143
+    ],
+    "samples/Tuffy-Regular.png": [
+        "SANS_SERIF",
+        0.7142857142857143
+    ],
+    "samples/ChangaOne-Regular.png": [
+        "DISPLAY",
+        0.8
+    ],
+    "samples/BungeeShade-Regular.png": [
+        "DISPLAY",
+        0.6944444444444444
+    ],
+    "samples/KaiseiOpti-Regular.png": [
+        "SERIF",
+        0.6788617886178862
+    ],
+    "samples/Habibi-Regular.png": [
+        "SERIF",
+        0.6558355437665783
+    ],
+    "samples/Balthazar-Regular.png": [
+        "SERIF",
+        0.6595041322314049
+    ],
+    "samples/GochiHand-Regular.png": [
+        "HANDWRITING",
+        0.7846153846153846
+    ],
+    "samples/AverageSans-Regular.png": [
+        "SANS_SERIF",
+        0.6599131693198264
+    ],
+    "samples/Radley-Regular.png": [
+        "SERIF",
+        0.6904761904761905
+    ],
+    "samples/Aladin-Regular.png": [
+        "HANDWRITING",
+        0.8708010335917312
+    ],
+    "samples/EastSeaDokdo-Regular.png": [
+        "HANDWRITING",
+        0.5717703349282297
+    ],
+    "samples/SairaSemiCondensed-Regular.png": [
+        "SANS_SERIF",
+        0.7412790697674418
+    ],
+    "samples/GrechenFuemen-Regular.png": [
+        "HANDWRITING",
+        0.5465517241379311
+    ],
+    "samples/Cutive-Regular.png": [
+        "SERIF",
+        0.6931155192532089
+    ],
+    "samples/Teko-Regular.png": [
+        "SANS_SERIF",
+        0.7795527156549521
+    ],
+    "samples/NixieOne-Regular.png": [
+        "DISPLAY",
+        0.7142857142857143
+    ],
+    "samples/NotoSansTamilSupplement-Regular.png": [
+        "SANS_SERIF",
+        0.7759103641456583
+    ],
+    "samples/Geostar-Regular.png": [
+        "DISPLAY",
+        0.6748201438848921
+    ],
+    "samples/Cagliostro-Regular.png": [
+        "SANS_SERIF",
+        0.6342857142857142
+    ],
+    "samples/ZenTokyoZoo-Regular.png": [
+        "DISPLAY",
+        0.5
+    ],
+    "samples/HindVadodara-Regular.png": [
+        "SANS_SERIF",
+        0.7437407952871871
+    ],
+    "samples/Damion-Regular.png": [
+        "HANDWRITING",
+        0.6921296296296297
+    ],
+    "samples/Diplomata-Regular.png": [
+        "DISPLAY",
+        0.8584615384615385
+    ],
+    "samples/Sriracha-Regular.png": [
+        "HANDWRITING",
+        0.7225609756097561
+    ],
+    "samples/Abel-Regular.png": [
+        "SANS_SERIF",
+        0.7280334728033473
+    ],
+    "samples/KottaOne-Regular.png": [
+        "SERIF",
+        0.3584905660377358
+    ],
+    "samples/Lusitana-Regular.png": [
+        "SERIF",
+        0.19467787114845939
+    ],
+    "samples/PoetsenOne-Regular.png": [
+        "DISPLAY",
+        0.7746478873239436
+    ],
+    "samples/RubikPuddles-Regular.png": [
+        "DISPLAY",
+        0.7428571428571429
+    ],
+    "samples/LibreBaskerville-Regular.png": [
+        "SERIF",
+        0.6883116883116883
+    ],
+    "samples/Sacramento-Regular.png": [
+        "HANDWRITING",
+        0.4045161290322581
+    ],
+    "samples/KdamThmorPro-Regular.png": [
+        "SANS_SERIF",
+        0.7717528373266078
+    ],
+    "samples/RubikIso-Regular.png": [
+        "DISPLAY",
+        0.7428571428571429
+    ],
+    "samples/ShipporiAntiqueB1-Regular.png": [
+        "SANS_SERIF",
+        0.7148703956343793
+    ],
+    "samples/Hanuman-Regular.png": [
+        "SERIF",
+        0.7510259917920656
+    ],
+    "samples/Rock3D-Regular.png": [
+        "DISPLAY",
+        0.6794871794871795
+    ],
+    "samples/Pushster-Regular.png": [
+        "DISPLAY",
+        0.6684491978609626
+    ],
+    "samples/BarlowCondensed-Regular.png": [
+        "SANS_SERIF",
+        0.7228571428571429
+    ],
+    "samples/AlexBrush-Regular.png": [
+        "HANDWRITING",
+        0.45714285714285713
+    ],
+    "samples/Stylish-Regular.png": [
+        "SANS_SERIF",
+        0.6833333333333333
+    ],
+    "samples/FredokaOne-Regular.png": [
+        "DISPLAY",
+        0.7189631650750341
+    ],
+    "samples/Flamenco-Regular.png": [
+        "DISPLAY",
+        0.6332236842105263
+    ],
+    "samples/Playball-Regular.png": [
+        "DISPLAY",
+        0.5708215297450425
+    ],
+    "samples/SignikaNegativeSC-Regular.png": [
+        "SANS_SERIF",
+        0.7197080291970803
+    ],
+    "samples/MarcellusSC-Regular.png": [
+        "SERIF",
+        0.7496513249651325
+    ],
+    "samples/NotoSansPhagsPa-Regular.png": [
+        "SANS_SERIF",
+        0.8
+    ],
+    "samples/Langar-Regular.png": [
+        "DISPLAY",
+        0.7142857142857143
+    ],
+    "samples/CrimsonText-Regular.png": [
+        "SERIF",
+        0.6554878048780488
+    ],
+    "samples/HiMelody-Regular.png": [
+        "HANDWRITING",
+        0.626953125
+    ],
+    "samples/Palanquin-Regular.png": [
+        "SANS_SERIF",
+        0.7132352941176471
+    ],
+    "samples/Allerta-Regular.png": [
+        "SANS_SERIF",
+        0.7652645861601085
+    ],
+    "samples/IslandMoments-Regular.png": [
+        "HANDWRITING",
+        0.5625
+    ],
+    "samples/MoonDance-Regular.png": [
+        "HANDWRITING",
+        0.5785123966942148
+    ],
+    "samples/NTR-Regular.png": [
+        "SANS_SERIF",
+        0.7377622377622378
+    ],
+    "samples/Brawler-Regular.png": [
+        "SERIF",
+        0.7142857142857143
+    ],
+    "samples/Gwendolyn-Regular.png": [
+        "HANDWRITING",
+        0.4692556634304207
+    ],
+    "samples/Varela-Regular.png": [
+        "SANS_SERIF",
+        0.7306590257879656
+    ],
+    "samples/Carattere-Regular.png": [
+        "HANDWRITING",
+        0.5072463768115942
+    ],
+    "samples/PasseroOne-Regular.png": [
+        "DISPLAY",
+        0.7430083144368859
+    ],
+    "samples/NotoSansSyriac-Regular.png": [
+        "SANS_SERIF",
+        0.7745098039215687
+    ],
+    "samples/Trykker-Regular.png": [
+        "SERIF",
+        0.6789544235924933
+    ],
+    "samples/Niramit-Regular.png": [
+        "SANS_SERIF",
+        0.6928571428571428
+    ],
+    "samples/Romanesco-Regular.png": [
+        "HANDWRITING",
+        0.5599425699928212
+    ],
+    "samples/OoohBaby-Regular.png": [
+        "HANDWRITING",
+        0.5251798561151079
+    ],
+    "samples/DeliciousHandrawn-Regular.png": [
+        "HANDWRITING",
+        0.5882352941176471
+    ],
+    "samples/KronaOne-Regular.png": [
+        "SANS_SERIF",
+        0.7549584133077415
+    ],
+    "samples/LuxuriousRoman-Regular.png": [
+        "DISPLAY",
+        0.7218045112781954
+    ],
+    "samples/Ledger-Regular.png": [
+        "SERIF",
+        0.6493333333333333
+    ],
+    "samples/VarelaRound-Regular.png": [
+        "SANS_SERIF",
+        0.7306590257879656
+    ],
+    "samples/Voltaire-Regular.png": [
+        "SANS_SERIF",
+        0.6666666666666666
+    ],
+    "samples/FleurDeLeah-Regular.png": [
+        "HANDWRITING",
+        0.5225806451612903
+    ],
+    "samples/Splash-Regular.png": [
+        "HANDWRITING",
+        0.6285714285714286
+    ],
+    "samples/Rajdhani-Regular.png": [
+        "SANS_SERIF",
+        0.7931570762052877
+    ],
+    "samples/Srisakdi-Regular.png": [
+        "DISPLAY",
+        0.6714285714285714
+    ],
+    "samples/Peralta-Regular.png": [
+        "DISPLAY",
+        0.7004732927653821
+    ],
+    "samples/FasterOne-Regular.png": [
+        "DISPLAY",
+        0.8464
+    ],
+    "samples/ScopeOne-Regular.png": [
+        "SERIF",
+        0.7751937984496124
+    ],
+    "samples/Moul-Regular.png": [
+        "DISPLAY",
+        0.7510259917920656
+    ],
+    "samples/Buenard-Regular.png": [
+        "SERIF",
+        0.5337078651685393
+    ],
+    "samples/Kurale-Regular.png": [
+        "SERIF",
+        0.6923076923076923
+    ],
+    "samples/Codystar-Regular.png": [
+        "DISPLAY",
+        0.9894875164257556
+    ],
+    "samples/NotoSansThaiLooped-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/CormorantGaramond-Regular.png": [
+        "SERIF",
+        0.6176
+    ],
+    "samples/Ovo-Regular.png": [
+        "SERIF",
+        1.6952380952380952
+    ],
+    "samples/AoboshiOne-Regular.png": [
+        "SERIF",
+        0.6133333333333333
+    ],
+    "samples/Preahvihear-Regular.png": [
+        "SANS_SERIF",
+        0.7510259917920656
+    ],
+    "samples/SquadaOne-Regular.png": [
+        "DISPLAY",
+        0.7697063369397218
+    ],
+    "samples/Pattaya-Regular.png": [
+        "SANS_SERIF",
+        0.6684073107049608
+    ],
+    "samples/AtomicAge-Regular.png": [
+        "DISPLAY",
+        0.6906332453825857
+    ],
+    "samples/PurplePurse-Regular.png": [
+        "DISPLAY",
+        0.6032417195207893
+    ],
+    "samples/AlumniSansInlineOne-Regular.png": [
+        "SANS_SERIF",
+        0.8375634517766497
+    ],
+    "samples/Chicle-Regular.png": [
+        "DISPLAY",
+        0.5399610136452242
+    ],
+    "samples/NotoSansBhaiksuki-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/Mallanna-Regular.png": [
+        "SANS_SERIF",
+        0.6941391941391941
+    ],
+    "samples/Caladea-Regular.png": [
+        "SERIF",
+        0.7001499250374813
+    ],
+    "samples/Numans-Regular.png": [
+        "SANS_SERIF",
+        0.7642956764295676
+    ],
+    "samples/SofadiOne-Regular.png": [
+        "DISPLAY",
+        0.7142857142857143
+    ],
+    "samples/NotoSansOsmanya-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/Farro-Regular.png": [
+        "SANS_SERIF",
+        0.8
+    ],
+    "samples/ComicNeue-Regular.png": [
+        "HANDWRITING",
+        0.7268656716417911
+    ],
+    "samples/ChauPhilomeneOne-Regular.png": [
+        "SANS_SERIF",
+        0.6808510638297872
+    ],
+    "samples/AlumniSansCollegiateOne-Regular.png": [
+        "DISPLAY",
+        0.8375634517766497
+    ],
+    "samples/DenkOne-Regular.png": [
+        "SANS_SERIF",
+        0.7112426035502959
+    ],
+    "samples/NotoSansCypriot-Regular.png": [
+        "SANS_SERIF",
+        0.7282608695652174
+    ],
+    "samples/SquarePeg-Regular.png": [
+        "HANDWRITING",
+        0.43333333333333335
+    ],
+    "samples/Thasadith-Regular.png": [
+        "SANS_SERIF",
+        0.7285714285714285
+    ],
+    "samples/AlmendraSC-Regular.png": [
+        "SERIF",
+        0.7121771217712177
+    ],
+    "samples/NotoSansMath-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/PirataOne-Regular.png": [
+        "DISPLAY",
+        0.7490542244640606
+    ],
+    "samples/Caramel-Regular.png": [
+        "HANDWRITING",
+        0.4153846153846154
+    ],
+    "samples/BlackHanSans-Regular.png": [
+        "SANS_SERIF",
+        0.8
+    ],
+    "samples/LoveLight-Regular.png": [
+        "HANDWRITING",
+        0.45714285714285713
+    ],
+    "samples/NotoSansRunic-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/ViaodaLibre-Regular.png": [
+        "DISPLAY",
+        0.6310810810810811
+    ],
+    "samples/Lateef-Regular.png": [
+        "SERIF",
+        0.675146771037182
+    ],
+    "samples/RougeScript-Regular.png": [
+        "HANDWRITING",
+        1.387012987012987
+    ],
+    "samples/GentiumBookPlus-Regular.png": [
+        "SERIF",
+        0.7380952380952381
+    ],
+    "samples/Devonshire-Regular.png": [
+        "HANDWRITING",
+        0.6099397590361446
+    ],
+    "samples/Gafata-Regular.png": [
+        "SANS_SERIF",
+        0.7592592592592593
+    ],
+    "samples/NotoSansMendeKikakui-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/Kings-Regular.png": [
+        "HANDWRITING",
+        0.7301587301587301
+    ],
+    "samples/Castoro-Regular.png": [
+        "SERIF",
+        0.6795422031473534
+    ],
+    "samples/SairaStencilOne-Regular.png": [
+        "DISPLAY",
+        0.7412790697674418
+    ],
+    "samples/HindJalandhar-Regular.png": [
+        "SANS_SERIF",
+        0.7437407952871871
+    ],
+    "samples/Hubballi-Regular.png": [
+        "DISPLAY",
+        0.7327102803738318
+    ],
+    "samples/KiteOne-Regular.png": [
+        "SANS_SERIF",
+        0.5732558139534883
+    ],
+    "samples/NotoSansLinearB-Regular.png": [
+        "SANS_SERIF",
+        0.67
+    ],
+    "samples/StintUltraExpanded-Regular.png": [
+        "DISPLAY",
+        0.6928675400291121
+    ],
+    "samples/Englebert-Regular.png": [
+        "SANS_SERIF",
+        0.7346521145975443
+    ],
+    "samples/Prata-Regular.png": [
+        "SERIF",
+        0.6475
+    ],
+    "samples/ABeeZee-Regular.png": [
+        "SANS_SERIF",
+        0.7428571428571429
+    ],
+    "samples/Gudea-Regular.png": [
+        "SANS_SERIF",
+        0.7157142857142857
+    ],
+    "samples/AnnieUseYourTelescope-Regular.png": [
+        "HANDWRITING",
+        0.584931506849315
+    ],
+    "samples/HindKochi-Regular.png": [
+        "SANS_SERIF",
+        0.7437407952871871
+    ],
+    "samples/Krub-Regular.png": [
+        "SANS_SERIF",
+        0.7857142857142857
+    ],
+    "samples/AlegreyaSans-Regular.png": [
+        "SANS_SERIF",
+        0.7145085803432137
+    ],
+    "samples/ChakraPetch-Regular.png": [
+        "SANS_SERIF",
+        0.7114285714285714
+    ],
+    "samples/McLaren-Regular.png": [
+        "DISPLAY",
+        0.7211072664359861
+    ],
+    "samples/Rambla-Regular.png": [
+        "SANS_SERIF",
+        0.7574850299401198
+    ],
+    "samples/Amiko-Regular.png": [
+        "SANS_SERIF",
+        0.75
+    ],
+    "samples/Mandali-Regular.png": [
+        "SANS_SERIF",
+        0.6945454545454546
+    ],
+    "samples/NanumMyeongjo-Regular.png": [
+        "HANDWRITING",
+        0.6357615894039735
+    ],
+    "samples/Mako-Regular.png": [
+        "SANS_SERIF",
+        0.7174669450243563
+    ],
+    "samples/Gupter-Regular.png": [
+        "SERIF",
+        0.7234726688102894
+    ],
+    "samples/BenchNine-Regular.png": [
+        "SANS_SERIF",
+        0.6995827538247567
+    ],
+    "samples/ArchitectsDaughter-Regular.png": [
+        "HANDWRITING",
+        0.6503703703703704
+    ],
+    "samples/SedanSC-Regular.png": [
+        "SERIF",
+        0.7020348837209303
+    ],
+    "samples/Strait-Regular.png": [
+        "SANS_SERIF",
+        0.7428571428571429
+    ],
+    "samples/QwitcherGrypen-Regular.png": [
+        "HANDWRITING",
+        0.44
+    ],
+    "samples/FiraSans-Regular.png": [
+        "SANS_SERIF",
+        0.7648766328011611
+    ],
+    "samples/EkMukta-Regular.png": [
+        "SANS_SERIF",
+        0.7428571428571429
+    ],
+    "samples/AkayaTelivigala-Regular.png": [
+        "DISPLAY",
+        0.734094616639478
+    ],
+    "samples/Asset-Regular.png": [
+        "DISPLAY",
+        0.8109992254066615
+    ],
+    "samples/Dhyana-Regular.png": [
+        "SERIF",
+        0.74034198860038
+    ],
+    "samples/Baumans-Regular.png": [
+        "DISPLAY",
+        0.6857142857142857
+    ],
+    "samples/SairaExtraCondensed-Regular.png": [
+        "SANS_SERIF",
+        0.7412790697674418
+    ],
+    "samples/Creepster-Regular.png": [
+        "DISPLAY",
+        1.0
+    ],
+    "samples/Dangrek-Regular.png": [
+        "DISPLAY",
+        0.7510259917920656
+    ],
+    "samples/Kalam-Regular.png": [
+        "HANDWRITING",
+        0.7117726657645467
+    ],
+    "samples/KulimPark-Regular.png": [
+        "SANS_SERIF",
+        0.7142857142857143
+    ],
+    "samples/Jaldi-Regular.png": [
+        "SANS_SERIF",
+        0.7481898632341111
+    ],
+    "samples/Sarabun-Regular.png": [
+        "SANS_SERIF",
+        0.7142857142857143
+    ],
+    "samples/Armata-Regular.png": [
+        "SANS_SERIF",
+        0.7777777777777778
+    ],
+    "samples/FjordOne-Regular.png": [
+        "SERIF",
+        0.6560773480662984
+    ],
+    "samples/IstokWeb-Regular.png": [
+        "SANS_SERIF",
+        0.7322175732217573
+    ],
+    "samples/Quando-Regular.png": [
+        "SERIF",
+        0.7827788649706457
+    ],
+    "samples/BhuTukaExpandedOne-Regular.png": [
+        "DISPLAY",
+        0.6865384615384615
+    ],
+    "samples/Norican-Regular.png": [
+        "HANDWRITING",
+        0.5274509803921569
+    ],
+    "samples/CantataOne-Regular.png": [
+        "SERIF",
+        0.6686274509803921
+    ],
+    "samples/Laila-Regular.png": [
+        "SANS_SERIF",
+        0.7210599721059973
+    ],
+    "samples/IndieFlower-Regular.png": [
+        "HANDWRITING",
+        0.6551226551226551
+    ],
+    "samples/TulpenOne-Regular.png": [
+        "DISPLAY",
+        0.7307968413496052
+    ],
+    "samples/SansitaOne-Regular.png": [
+        "DISPLAY",
+        0.1606060606060606
+    ],
+    "samples/Inder-Regular.png": [
+        "SANS_SERIF",
+        0.7413793103448276
+    ],
+    "samples/NewRocker-Regular.png": [
+        "DISPLAY",
+        0.6343792633015006
+    ],
+    "samples/Cherish-Regular.png": [
+        "HANDWRITING",
+        0.55
+    ],
+    "samples/NotoSansAnatolianHieroglyphs-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/MaShanZheng-Regular.png": [
+        "HANDWRITING",
+        0.6657894736842105
+    ],
+    "samples/AbyssinicaSIL-Regular.png": [
+        "SERIF",
+        0.8871841155234657
+    ],
+    "samples/MartelSans-Regular.png": [
+        "SANS_SERIF",
+        0.7852941176470588
+    ],
+    "samples/Martel-Regular.png": [
+        "SERIF",
+        0.7203166226912929
+    ],
+    "samples/LondrinaSketch-Regular.png": [
+        "DISPLAY",
+        0.703601108033241
+    ],
+    "samples/CinzelDecorative-Regular.png": [
+        "DISPLAY",
+        1.02
+    ],
+    "samples/Metal-Regular.png": [
+        "DISPLAY",
+        0.7510259917920656
+    ],
+    "samples/Lemon-Regular.png": [
+        "DISPLAY",
+        1.1441441441441442
+    ],
+    "samples/Boogaloo-Regular.png": [
+        "DISPLAY",
+        0.720682302771855
+    ],
+    "samples/SnowburstOne-Regular.png": [
+        "DISPLAY",
+        0.8238532110091743
+    ],
+    "samples/NotoSansMro-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/MonsieurLaDoulaise-Regular.png": [
+        "HANDWRITING",
+        0.22496570644718794
+    ],
+    "samples/ShareTechMono-Regular.png": [
+        "MONOSPACE",
+        0.7142857142857143
+    ],
+    "samples/Gotu-Regular.png": [
+        "SANS_SERIF",
+        0.7208976157082749
+    ],
+    "samples/KumarOne-Regular.png": [
+        "DISPLAY",
+        0.75
+    ],
+    "samples/PatrickHand-Regular.png": [
+        "HANDWRITING",
+        0.7065052950075643
+    ],
+    "samples/Federant-Regular.png": [
+        "DISPLAY",
+        0.7226890756302521
+    ],
+    "samples/Itim-Regular.png": [
+        "HANDWRITING",
+        0.7464566929133858
+    ],
+    "samples/Sniglet-Regular.png": [
+        "DISPLAY",
+        0.7142857142857143
+    ],
+    "samples/DMSerifDisplay-Regular.png": [
+        "SERIF",
+        0.7287878787878788
+    ],
+    "samples/Acme-Regular.png": [
+        "SANS_SERIF",
+        0.1539568345323741
+    ],
+    "samples/GlassAntiqua-Regular.png": [
+        "DISPLAY",
+        0.7523510971786834
+    ],
+    "samples/Molle-Regular.png": [
+        "HANDWRITING",
+        0.5730478589420654
+    ],
+    "samples/Stoke-Regular.png": [
+        "SERIF",
+        0.7013177159590044
+    ],
+    "samples/Sintony-Regular.png": [
+        "SANS_SERIF",
+        0.7835616438356164
+    ],
+    "samples/MacondoSwashCaps-Regular.png": [
+        "DISPLAY",
+        0.034482758620689655
+    ],
+    "samples/Aubrey-Regular.png": [
+        "DISPLAY",
+        0.7305194805194806
+    ],
+    "samples/Bungee-Regular.png": [
+        "DISPLAY",
+        0.6944444444444444
+    ],
+    "samples/TrainOne-Regular.png": [
+        "DISPLAY",
+        0.7141025641025641
+    ],
+    "samples/YujiBoku-Regular.png": [
+        "SERIF",
+        0.7161629434954008
+    ],
+    "samples/Antic-Regular.png": [
+        "SANS_SERIF",
+        0.7142857142857143
+    ],
+    "samples/Quantico-Regular.png": [
+        "SANS_SERIF",
+        0.7142857142857143
+    ],
+    "samples/Yesteryear-Regular.png": [
+        "HANDWRITING",
+        0.3953194180898166
+    ],
+    "samples/ShipporiMincho-Regular.png": [
+        "SERIF",
+        0.6611570247933884
+    ],
+    "samples/Simonetta-Regular.png": [
+        "DISPLAY",
+        0.6448598130841121
+    ],
+    "samples/Praise-Regular.png": [
+        "HANDWRITING",
+        0.7083333333333334
+    ],
+    "samples/DoppioOne-Regular.png": [
+        "SANS_SERIF",
+        0.7393132445690259
+    ],
+    "samples/WindSong-Regular.png": [
+        "HANDWRITING",
+        0.3801418439716312
+    ],
+    "samples/Pompiere-Regular.png": [
+        "DISPLAY",
+        0.46844106463878327
+    ],
+    "samples/NotoSansTagalog-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/NotoSansSymbols2-Regular.png": [
+        "SANS_SERIF",
+        0.5671957671957671
+    ],
+    "samples/Tomorrow-Regular.png": [
+        "SANS_SERIF",
+        0.7096336499321574
+    ],
+    "samples/Arsenal-Regular.png": [
+        "SANS_SERIF",
+        0.7692307692307693
+    ],
+    "samples/Italianno-Regular.png": [
+        "HANDWRITING",
+        0.4731369150779896
+    ],
+    "samples/CharisSIL-Regular.png": [
+        "SERIF",
+        0.7183406113537117
+    ],
+    "samples/LakkiReddy-Regular.png": [
+        "HANDWRITING",
+        0.7367688022284122
+    ],
+    "samples/Stick-Regular.png": [
+        "SANS_SERIF",
+        0.7272727272727273
+    ],
+    "samples/ZenLoop-Regular.png": [
+        "DISPLAY",
+        0.691304347826087
+    ],
+    "samples/Puritan-Regular.png": [
+        "SANS_SERIF",
+        0.7740458015267175
+    ],
+    "samples/VollkornSC-Regular.png": [
+        "SERIF",
+        0.6775147928994083
+    ],
+    "samples/Atma-Regular.png": [
+        "DISPLAY",
+        0.6666666666666666
+    ],
+    "samples/Waterfall-Regular.png": [
+        "HANDWRITING",
+        0.3706896551724138
+    ],
+    "samples/MeowScript-Regular.png": [
+        "HANDWRITING",
+        0.5714285714285714
+    ],
+    "samples/Anaheim-Regular.png": [
+        "SANS_SERIF",
+        0.7671451355661882
+    ],
+    "samples/CarroisGothicSC-Regular.png": [
+        "SANS_SERIF",
+        0.7777777777777778
+    ],
+    "samples/ConcertOne-Regular.png": [
+        "DISPLAY",
+        0.7171428571428572
+    ],
+    "samples/Padauk-Regular.png": [
+        "SANS_SERIF",
+        0.5083056478405316
+    ],
+    "samples/Licorice-Regular.png": [
+        "HANDWRITING",
+        0.5555555555555556
+    ],
+    "samples/HammersmithOne-Regular.png": [
+        "SANS_SERIF",
+        0.7857142857142857
+    ],
+    "samples/Khand-Regular.png": [
+        "SANS_SERIF",
+        0.8467261904761905
+    ],
+    "samples/BaiJamjuree-Regular.png": [
+        "SANS_SERIF",
+        0.7128571428571429
+    ],
+    "samples/InriaSans-Regular.png": [
+        "SANS_SERIF",
+        0.7279411764705882
+    ],
+    "samples/Underdog-Regular.png": [
+        "DISPLAY",
+        0.7323943661971831
+    ],
+    "samples/Estonia-Regular.png": [
+        "HANDWRITING",
+        0.5838926174496645
+    ],
+    "samples/LibreBarcodeEAN13Text-Regular.png": [
+        "DISPLAY",
+        0.5
+    ],
+    "samples/NotoSansTaiLe-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/DMSans-Regular.png": [
+        "SANS_SERIF",
+        0.7085714285714285
+    ],
+    "samples/Almarai-Regular.png": [
+        "SANS_SERIF",
+        0.7178770949720671
+    ],
+    "samples/Aboreto-Regular.png": [
+        "DISPLAY",
+        1.0
+    ],
+    "samples/IBMPlexSansThaiLooped-Regular.png": [
+        "SANS_SERIF",
+        0.7392550143266475
+    ],
+    "samples/Nokora-Regular.png": [
+        "SANS_SERIF",
+        0.7510259917920656
+    ],
+    "samples/Scada-Regular.png": [
+        "SANS_SERIF",
+        0.7142857142857143
+    ],
+    "samples/WaterBrush-Regular.png": [
+        "HANDWRITING",
+        0.5
+    ],
+    "samples/NotoSerifAhom-Regular.png": [
+        "SERIF",
+        0.8088235294117647
+    ],
+    "samples/IBMPlexSansCondensed-Regular.png": [
+        "SANS_SERIF",
+        0.7392550143266475
+    ],
+    "samples/Bhavuka-Regular.png": [
+        "DISPLAY",
+        0.7312614259597806
+    ],
+    "samples/RubikMoonrocks-Regular.png": [
+        "DISPLAY",
+        0.7428571428571429
+    ],
+    "samples/UncialAntiqua-Regular.png": [
+        "DISPLAY",
+        0.5860945138511678
+    ],
+    "samples/Lato-Regular.png": [
+        "SANS_SERIF",
+        0.7069085833914864
+    ],
+    "samples/NotoSansMasaramGondi-Regular.png": [
+        "SANS_SERIF",
+        0.5666666666666667
+    ],
+    "samples/ComforterBrush-Regular.png": [
+        "HANDWRITING",
+        0.5333333333333333
+    ],
+    "samples/TiroDevanagariHindi-Regular.png": [
+        "SERIF",
+        0.6838340486409156
+    ],
+    "samples/RubikMonoOne-Regular.png": [
+        "SANS_SERIF",
+        0.7428571428571429
+    ],
+    "samples/Adamina-Regular.png": [
+        "SERIF",
+        0.6708542713567839
+    ],
+    "samples/Babylonica-Regular.png": [
+        "HANDWRITING",
+        0.3492063492063492
+    ],
+    "samples/MochiyPopPOne-Regular.png": [
+        "SANS_SERIF",
+        0.7407912687585266
+    ],
+    "samples/YuseiMagic-Regular.png": [
+        "SANS_SERIF",
+        0.6710526315789473
+    ],
+    "samples/Lalezar-Regular.png": [
+        "SANS_SERIF",
+        0.3263157894736842
+    ],
+    "samples/GeostarFill-Regular.png": [
+        "DISPLAY",
+        0.6748201438848921
+    ],
+    "samples/PragatiNarrow-Regular.png": [
+        "SANS_SERIF",
+        0.7682539682539683
+    ],
+    "samples/FingerPaint-Regular.png": [
+        "DISPLAY",
+        0.75
+    ],
+    "samples/GermaniaOne-Regular.png": [
+        "DISPLAY",
+        0.77
+    ],
+    "samples/Mingzat-Regular.png": [
+        "SANS_SERIF",
+        0.6409090909090909
+    ],
+    "samples/Nobile-Regular.png": [
+        "SANS_SERIF",
+        0.74034198860038
+    ],
+    "samples/GajrajOne-Regular.png": [
+        "DISPLAY",
+        0.7518796992481203
+    ],
+    "samples/ArbutusSlab-Regular.png": [
+        "SERIF",
+        0.676
+    ],
+    "samples/NotoSansKaithi-Regular.png": [
+        "SANS_SERIF",
+        0.8617363344051447
+    ],
+    "samples/LibreBarcode128Text-Regular.png": [
+        "DISPLAY",
+        0.6779661016949152
+    ],
+    "samples/Slabo27px-Regular.png": [
+        "SERIF",
+        0.7222222222222222
+    ],
+    "samples/Tauri-Regular.png": [
+        "SANS_SERIF",
+        0.7224697644812221
+    ],
+    "samples/Strong-Regular.png": [
+        "SANS_SERIF",
+        0.7142857142857143
+    ],
+    "samples/Harmattan-Regular.png": [
+        "SANS_SERIF",
+        0.7002700270027002
+    ],
+    "samples/RubikMicrobe-Regular.png": [
+        "DISPLAY",
+        0.7428571428571429
+    ],
+    "samples/LongCang-Regular.png": [
+        "HANDWRITING",
+        0.7485380116959064
+    ],
+    "samples/Lobster-Regular.png": [
+        "DISPLAY",
+        0.6684491978609626
+    ],
+    "samples/SpicyRice-Regular.png": [
+        "DISPLAY",
+        0.8156650911546253
+    ],
+    "samples/MySoul-Regular.png": [
+        "HANDWRITING",
+        0.47368421052631576
+    ],
+    "samples/Volkhov-Regular.png": [
+        "SERIF",
+        0.7142857142857143
+    ],
+    "samples/ZillaSlabHighlight-Regular.png": [
+        "DISPLAY",
+        0.6846153846153846
+    ],
+    "samples/ZenOldMincho-Regular.png": [
+        "SERIF",
+        0.5922865013774105
+    ],
+    "samples/Halant-Regular.png": [
+        "SERIF",
+        0.7636363636363637
+    ],
+    "samples/Cambay-Regular.png": [
+        "SANS_SERIF",
+        0.6981818181818182
+    ],
+    "samples/GildaDisplay-Regular.png": [
+        "SERIF",
+        0.6757142857142857
+    ],
+    "samples/CroissantOne-Regular.png": [
+        "DISPLAY",
+        0.7142857142857143
+    ],
+    "samples/Graduate-Regular.png": [
+        "DISPLAY",
+        0.8666666666666667
+    ],
+    "samples/SairaCondensed-Regular.png": [
+        "SANS_SERIF",
+        0.7412790697674418
+    ],
+    "samples/Birthstone-Regular.png": [
+        "HANDWRITING",
+        0.36363636363636365
+    ],
+    "samples/CaveatBrush-Regular.png": [
+        "HANDWRITING",
+        0.6363636363636364
+    ],
+    "samples/Almendra-Regular.png": [
+        "SERIF",
+        0.7717717717717718
+    ],
+    "samples/TheNautigal-Regular.png": [
+        "HANDWRITING",
+        0.44166666666666665
+    ],
+    "samples/TiroTelugu-Regular.png": [
+        "SERIF",
+        0.6838340486409156
+    ],
+    "samples/NotoSerifDogra-Regular.png": [
+        "SERIF",
+        0.8864
+    ],
+    "samples/Solway-Regular.png": [
+        "SERIF",
+        0.7142857142857143
+    ],
+    "samples/LibreBarcode39ExtendedText-Regular.png": [
+        "DISPLAY",
+        0.6779661016949152
+    ],
+    "samples/Cardo-Regular.png": [
+        "SERIF",
+        0.6382978723404256
+    ],
+    "samples/GreyQo-Regular.png": [
+        "HANDWRITING",
+        0.49074074074074076
+    ],
+    "samples/KeaniaOne-Regular.png": [
+        "DISPLAY",
+        0.6915629322268326
+    ],
+    "samples/Parisienne-Regular.png": [
+        "HANDWRITING",
+        0.46405648267008986
+    ],
+    "samples/RubikWetPaint-Regular.png": [
+        "DISPLAY",
+        0.7428571428571429
+    ],
+    "samples/SedgwickAveDisplay-Regular.png": [
+        "HANDWRITING",
+        0.6842105263157895
+    ],
+    "samples/Anton-Regular.png": [
+        "SANS_SERIF",
+        0.8522727272727273
+    ],
+    "samples/KiwiMaru-Regular.png": [
+        "SERIF",
+        0.6960110041265475
+    ],
+    "samples/Gloock-Regular.png": [
+        "DISPLAY",
+        0.6773333333333333
+    ],
+    "samples/ArchivoBlack-Regular.png": [
+        "SANS_SERIF",
+        0.7674418604651163
+    ],
+    "samples/EncodeSansExpanded-Regular.png": [
+        "SANS_SERIF",
+        0.7331081081081081
+    ],
+    "samples/BreeSerif-Regular.png": [
+        "SERIF",
+        0.7563909774436091
+    ],
+    "samples/Barrio-Regular.png": [
+        "DISPLAY",
+        0.6929577464788732
+    ],
+    "samples/RubikStorm-Regular.png": [
+        "DISPLAY",
+        0.7428571428571429
+    ],
+    "samples/JuliusSansOne-Regular.png": [
+        "SANS_SERIF",
+        0.9076923076923077
+    ],
+    "samples/Astloch-Regular.png": [
+        "DISPLAY",
+        0.7657945118059988
+    ],
+    "samples/NotoSansSaurashtra-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/BebasNeue-Regular.png": [
+        "DISPLAY",
+        1.0
+    ],
+    "samples/Prociono-Regular.png": [
+        "SERIF",
+        0.2750677506775068
+    ],
+    "samples/PaletteMosaic-Regular.png": [
+        "DISPLAY",
+        0.5886075949367089
+    ],
+    "samples/Fresca-Regular.png": [
+        "SANS_SERIF",
+        0.7469135802469136
+    ],
+    "samples/AlumniSansPinstripe-Regular.png": [
+        "DISPLAY",
+        0.8375634517766497
+    ],
+    "samples/DMSerifText-Regular.png": [
+        "SERIF",
+        0.7261724659606656
+    ],
+    "samples/Moulpali-Regular.png": [
+        "DISPLAY",
+        0.7510259917920656
+    ],
+    "samples/PatuaOne-Regular.png": [
+        "DISPLAY",
+        0.7246376811594203
+    ],
+    "samples/ZenKakuGothicNew-Regular.png": [
+        "SANS_SERIF",
+        0.6842857142857143
+    ],
+    "samples/NotoSansKhudawadi-Regular.png": [
+        "SANS_SERIF",
+        0.864516129032258
+    ],
+    "samples/AmiriQuran-Regular.png": [
+        "SERIF",
+        0.6702786377708978
+    ],
+    "samples/HindMysuru-Regular.png": [
+        "SANS_SERIF",
+        0.7437407952871871
+    ],
+    "samples/NanumGothicCoding-Regular.png": [
+        "HANDWRITING",
+        0.7124463519313304
+    ],
+    "samples/Mali-Regular.png": [
+        "HANDWRITING",
+        0.7142857142857143
+    ],
+    "samples/Gulzar-Regular.png": [
+        "SERIF",
+        0.7142857142857143
+    ],
+    "samples/MrDafoe-Regular.png": [
+        "HANDWRITING",
+        0.5032154340836013
+    ],
+    "samples/Ranga-Regular.png": [
+        "DISPLAY",
+        0.7012811867835469
+    ],
+    "samples/NotoSansOldTurkic-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/DrSugiyama-Regular.png": [
+        "HANDWRITING",
+        0.33098591549295775
+    ],
+    "samples/Gugi-Regular.png": [
+        "DISPLAY",
+        0.7581863979848866
+    ],
+    "samples/Suravaram-Regular.png": [
+        "SERIF",
+        0.7136929460580913
+    ],
+    "samples/HindGuntur-Regular.png": [
+        "SANS_SERIF",
+        0.7437407952871871
+    ],
+    "samples/NotoSansSharada-Regular.png": [
+        "SANS_SERIF",
+        0.8576
+    ],
+    "samples/VastShadow-Regular.png": [
+        "DISPLAY",
+        0.7751004016064257
+    ],
+    "samples/Pangolin-Regular.png": [
+        "HANDWRITING",
+        0.7708333333333334
+    ],
+    "samples/DelaGothicOne-Regular.png": [
+        "DISPLAY",
+        0.743801652892562
+    ],
+    "samples/MarkoOne-Regular.png": [
+        "SERIF",
+        0.48338983050847456
+    ],
+    "samples/BakbakOne-Regular.png": [
+        "DISPLAY",
+        0.8237232289950577
+    ],
+    "samples/RubikMarkerHatch-Regular.png": [
+        "DISPLAY",
+        0.7428571428571429
+    ],
+    "samples/Geo-Regular.png": [
+        "SANS_SERIF",
+        0.787085514834206
+    ],
+    "samples/Aldrich-Regular.png": [
+        "SANS_SERIF",
+        0.7426778242677824
+    ],
+    "samples/RubikBubbles-Regular.png": [
+        "DISPLAY",
+        0.7428571428571429
+    ],
+    "samples/DoHyeon-Regular.png": [
+        "SANS_SERIF",
+        0.7473560517038778
+    ],
+    "samples/AreYouSerious-Regular.png": [
+        "HANDWRITING",
+        0.45454545454545453
+    ],
+    "samples/Philosopher-Regular.png": [
+        "SANS_SERIF",
+        0.7121212121212122
+    ],
+    "samples/MouseMemoirs-Regular.png": [
+        "SANS_SERIF",
+        0.7209944751381215
+    ],
+    "samples/Basic-Regular.png": [
+        "SANS_SERIF",
+        0.7525773195876289
+    ],
+    "samples/AnonymousPro-Regular.png": [
+        "MONOSPACE",
+        0.714176245210728
+    ],
+    "samples/Courgette-Regular.png": [
+        "HANDWRITING",
+        0.37209302325581395
+    ],
+    "samples/DuruSans-Regular.png": [
+        "SANS_SERIF",
+        0.7445302445302445
+    ],
+    "samples/Oranienbaum-Regular.png": [
+        "SERIF",
+        0.6785714285714286
+    ],
+    "samples/Esteban-Regular.png": [
+        "SERIF",
+        0.927007299270073
+    ],
+    "samples/NotoSansSiddham-Regular.png": [
+        "SANS_SERIF",
+        0.9565826330532213
+    ],
+    "samples/KaiseiTokumin-Regular.png": [
+        "SERIF",
+        0.6788617886178862
+    ],
+    "samples/NotoSansAvestan-Regular.png": [
+        "SANS_SERIF",
+        0.8220858895705522
+    ],
+    "samples/IBMPlexSansKR-Regular.png": [
+        "SANS_SERIF",
+        0.7392550143266475
+    ],
+    "samples/WendyOne-Regular.png": [
+        "SANS_SERIF",
+        0.7821782178217822
+    ],
+    "samples/NotoSansChakma-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/RhodiumLibre-Regular.png": [
+        "SERIF",
+        0.7382352941176471
+    ],
+    "samples/BigshotOne-Regular.png": [
+        "DISPLAY",
+        0.7300813008130081
+    ],
+    "samples/YujiHentaiganaAkari-Regular.png": [
+        "HANDWRITING",
+        0.7161629434954008
+    ],
+    "samples/Trocchi-Regular.png": [
+        "SERIF",
+        1.0
+    ],
+    "samples/Rufina-Regular.png": [
+        "SERIF",
+        0.7305389221556886
+    ],
+    "samples/Taviraj-Regular.png": [
+        "SERIF",
+        0.6714285714285714
+    ],
+    "samples/RubikSprayPaint-Regular.png": [
+        "DISPLAY",
+        0.7428571428571429
+    ],
+    "samples/ChelseaMarket-Regular.png": [
+        "DISPLAY",
+        0.7638190954773869
+    ],
+    "samples/RubikVinyl-Regular.png": [
+        "DISPLAY",
+        0.7428571428571429
+    ],
+    "samples/EncodeSansSemiCondensed-Regular.png": [
+        "SANS_SERIF",
+        0.7331081081081081
+    ],
+    "samples/Kodchasan-Regular.png": [
+        "SANS_SERIF",
+        0.7
+    ],
+    "samples/NotoSansSogdian-Regular.png": [
+        "SANS_SERIF",
+        0.5667655786350149
+    ],
+    "samples/BilboSwashCaps-Regular.png": [
+        "HANDWRITING",
+        0.6033210332103321
+    ],
+    "samples/Allison-Regular.png": [
+        "HANDWRITING",
+        0.3492063492063492
+    ],
+    "samples/QuattrocentoSans-Regular.png": [
+        "SANS_SERIF",
+        0.696969696969697
+    ],
+    "samples/SedgwickAve-Regular.png": [
+        "HANDWRITING",
+        0.6947368421052632
+    ],
+    "samples/NotoSansShavian-Regular.png": [
+        "SANS_SERIF",
+        0.695201037613489
+    ],
+    "samples/Kadwa-Regular.png": [
+        "SERIF",
+        0.7566248256624826
+    ],
+    "samples/NotoSansUgaritic-Regular.png": [
+        "SANS_SERIF",
+        0.7413554633471646
+    ],
+    "samples/Chokokutai-Regular.png": [
+        "DISPLAY",
+        0.627906976744186
+    ],
+    "samples/TiroGurmukhi-Regular.png": [
+        "SERIF",
+        0.6795422031473534
+    ],
+    "samples/RugeBoogie-Regular.png": [
+        "HANDWRITING",
+        0.609375
+    ],
+    "samples/NotoSansInscriptionalParthian-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/Tangerine-Regular.png": [
+        "HANDWRITING",
+        0.39596273291925466
+    ],
+    "samples/Rubik80sFade-Regular.png": [
+        "DISPLAY",
+        0.7428571428571429
+    ],
+    "samples/ArefRuqaaInk-Regular.png": [
+        "SERIF",
+        0.6764275256222547
+    ],
+    "samples/Paprika-Regular.png": [
+        "DISPLAY",
+        0.7750281214848144
+    ],
+    "samples/NotoSansOldNorthArabian-Regular.png": [
+        "SANS_SERIF",
+        0.806015037593985
+    ],
+    "samples/NotoSerifTangut-Regular.png": [
+        "SERIF",
+        0.721399730820996
+    ],
+    "samples/Pridi-Regular.png": [
+        "SERIF",
+        0.7507002801120448
+    ],
+    "samples/Amarante-Regular.png": [
+        "DISPLAY",
+        0.6601307189542484
+    ],
+    "samples/Merriweather-Regular.png": [
+        "SERIF",
+        0.746971736204576
+    ],
+    "samples/NotoTraditionalNushu-Regular.png": [
+        "SANS_SERIF",
+        0.7407912687585266
+    ],
+    "samples/Salsa-Regular.png": [
+        "DISPLAY",
+        1.3780487804878048
+    ],
+    "samples/NotoSansLycian-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/TradeWinds-Regular.png": [
+        "DISPLAY",
+        0.7076167076167076
+    ],
+    "samples/NotoSansImperialAramaic-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/Arbutus-Regular.png": [
+        "DISPLAY",
+        2.2718446601941746
+    ],
+    "samples/Miltonian-Regular.png": [
+        "DISPLAY",
+        0.6589259796806967
+    ],
+    "samples/TaiHeritagePro-Regular.png": [
+        "SERIF",
+        0.6764705882352942
+    ],
+    "samples/SyneMono-Regular.png": [
+        "MONOSPACE",
+        0.7692307692307693
+    ],
+    "samples/NotoSansCoptic-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/MiriamLibre-Regular.png": [
+        "SANS_SERIF",
+        0.814388489208633
+    ],
+    "samples/Alkalami-Regular.png": [
+        "SERIF",
+        0.6515151515151515
+    ],
+    "samples/YujiHentaiganaAkebono-Regular.png": [
+        "HANDWRITING",
+        0.7161629434954008
+    ],
+    "samples/IBMPlexSans-Regular.png": [
+        "SANS_SERIF",
+        0.7392550143266475
+    ],
+    "samples/NotoSansOldHungarian-Regular.png": [
+        "SANS_SERIF",
+        0.8403361344537815
+    ],
+    "samples/MeaCulpa-Regular.png": [
+        "HANDWRITING",
+        0.375
+    ],
+    "samples/VampiroOne-Regular.png": [
+        "DISPLAY",
+        0.7574468085106383
+    ],
+    "samples/FiraSansExtraCondensed-Regular.png": [
+        "SANS_SERIF",
+        0.7648766328011611
+    ],
+    "samples/FugazOne-Regular.png": [
+        "DISPLAY",
+        0.6777777777777778
+    ],
+    "samples/MuktaMahee-Regular.png": [
+        "SANS_SERIF",
+        0.7428571428571429
+    ],
+    "samples/Federo-Regular.png": [
+        "SANS_SERIF",
+        0.6334902488231339
+    ],
+    "samples/OverlockSC-Regular.png": [
+        "DISPLAY",
+        1.0324675324675325
+    ],
+    "samples/RubikBurned-Regular.png": [
+        "DISPLAY",
+        0.7428571428571429
+    ],
+    "samples/Spectral-Regular.png": [
+        "SERIF",
+        0.6818181818181818
+    ],
+    "samples/JockeyOne-Regular.png": [
+        "SANS_SERIF",
+        0.73
+    ],
+    "samples/SulphurPoint-Regular.png": [
+        "SANS_SERIF",
+        0.7518796992481203
+    ],
+    "samples/LobsterTwo-Regular.png": [
+        "DISPLAY",
+        0.6631299734748011
+    ],
+    "samples/B612-Regular.png": [
+        "SANS_SERIF",
+        0.7333333333333333
+    ],
+    "samples/Amita-Regular.png": [
+        "HANDWRITING",
+        0.6875
+    ],
+    "samples/Arya-Regular.png": [
+        "SANS_SERIF",
+        0.6770293609671848
+    ],
+    "samples/MedulaOne-Regular.png": [
+        "DISPLAY",
+        0.7538461538461538
+    ],
+    "samples/MochiyPopOne-Regular.png": [
+        "SANS_SERIF",
+        0.7407912687585266
+    ],
+    "samples/WireOne-Regular.png": [
+        "SANS_SERIF",
+        0.7142857142857143
+    ],
+    "samples/Spirax-Regular.png": [
+        "DISPLAY",
+        0.6652298850574713
+    ],
+    "samples/NotoSansPhoenician-Regular.png": [
+        "SANS_SERIF",
+        0.7454798331015299
+    ],
+    "samples/NotoSansNushu-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/KaushanScript-Regular.png": [
+        "HANDWRITING",
+        0.6330532212885154
+    ],
+    "samples/NunitoSans-Regular.png": [
+        "SANS_SERIF",
+        0.6893617021276596
+    ],
+    "samples/OtomanopeeOne-Regular.png": [
+        "SANS_SERIF",
+        0.7276315789473684
+    ],
+    "samples/CuteFont-Regular.png": [
+        "DISPLAY",
+        0.7272727272727273
+    ],
+    "samples/RubikGlitch-Regular.png": [
+        "DISPLAY",
+        0.7428571428571429
+    ],
+    "samples/VT323-Regular.png": [
+        "MONOSPACE",
+        0.7142857142857143
+    ],
+    "samples/Galindo-Regular.png": [
+        "DISPLAY",
+        0.7282392026578073
+    ],
+    "samples/Ole-Regular.png": [
+        "HANDWRITING",
+        0.5294117647058824
+    ],
+    "samples/Arizonia-Regular.png": [
+        "HANDWRITING",
+        0.42424242424242425
+    ],
+    "samples/Yantramanav-Regular.png": [
+        "SANS_SERIF",
+        0.7709147771696638
+    ],
+    "samples/Lustria-Regular.png": [
+        "SERIF",
+        0.7159090909090909
+    ],
+    "samples/ChelaOne-Regular.png": [
+        "DISPLAY",
+        0.7406380027739251
+    ],
+    "samples/BlackAndWhitePicture-Regular.png": [
+        "SANS_SERIF",
+        0.6820987654320988
+    ],
+    "samples/Bayon-Regular.png": [
+        "SANS_SERIF",
+        0.7510259917920656
+    ],
+    "samples/NotoSansOldPermic-Regular.png": [
+        "SANS_SERIF",
+        0.8401253918495298
+    ],
+    "samples/NotoSansPauCinHau-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/ZCOOLKuaiLe-Regular.png": [
+        "SANS_SERIF",
+        0.7314285714285714
+    ],
+    "samples/Alice-Regular.png": [
+        "SERIF",
+        0.7179080824088748
+    ],
+    "samples/Gruppo-Regular.png": [
+        "DISPLAY",
+        0.6876122082585279
+    ],
+    "samples/NotoSansOriyaUI-Regular.png": [
+        "SANS_SERIF",
+        0.9215686274509803
+    ],
+    "samples/NotoSansWarangCiti-Regular.png": [
+        "SANS_SERIF",
+        0.7901408450704225
+    ],
+    "samples/TsukimiRounded-Regular.png": [
+        "SANS_SERIF",
+        0.625
+    ],
+    "samples/NotoSansRejang-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/Alatsi-Regular.png": [
+        "SANS_SERIF",
+        0.7144906743185079
+    ],
+    "samples/ZenDots-Regular.png": [
+        "DISPLAY",
+        0.7202797202797203
+    ],
+    "samples/ShipporiMinchoB1-Regular.png": [
+        "SERIF",
+        0.6611570247933884
+    ],
+    "samples/MonteCarlo-Regular.png": [
+        "HANDWRITING",
+        0.42
+    ],
+    "samples/NotoSansZanabazarSquare-Regular.png": [
+        "SANS_SERIF",
+        0.7905604719764012
+    ],
+    "samples/Galdeano-Regular.png": [
+        "SANS_SERIF",
+        0.2743801652892562
+    ],
+    "samples/CormorantUpright-Regular.png": [
+        "SERIF",
+        0.6176
+    ],
+    "samples/Unna-Regular.png": [
+        "SERIF",
+        0.7035175879396985
+    ],
+    "samples/HennyPenny-Regular.png": [
+        "DISPLAY",
+        0.7045707915273133
+    ],
+    "samples/Taprom-Regular.png": [
+        "DISPLAY",
+        0.7510259917920656
+    ],
+    "samples/Limelight-Regular.png": [
+        "DISPLAY",
+        0.7547703180212014
+    ],
+    "samples/FragmentMono-Regular.png": [
+        "SANS_SERIF",
+        0.7496423462088698
+    ],
+    "samples/Iceberg-Regular.png": [
+        "DISPLAY",
+        0.7510853835021708
+    ],
+    "samples/Arapey-Regular.png": [
+        "SERIF",
+        0.6854460093896714
+    ],
+    "samples/Shalimar-Regular.png": [
+        "HANDWRITING",
+        0.5625
+    ],
+    "samples/Aleo-Regular.png": [
+        "SERIF",
+        0.7067039106145251
+    ],
+    "samples/NotoSansVai-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/TitanOne-Regular.png": [
+        "DISPLAY",
+        0.8169014084507042
+    ],
+    "samples/Convergence-Regular.png": [
+        "SANS_SERIF",
+        0.7441540577716643
+    ],
+    "samples/SecularOne-Regular.png": [
+        "SANS_SERIF",
+        0.7732732732732732
+    ],
+    "samples/RalewayDots-Regular.png": [
+        "DISPLAY",
+        0.7323943661971831
+    ],
+    "samples/CourierPrime-Regular.png": [
+        "MONOSPACE",
+        0.7784330244313395
+    ],
+    "samples/KolkerBrush-Regular.png": [
+        "HANDWRITING",
+        0.4270833333333333
+    ],
+    "samples/LibreBarcode39-Regular.png": [
+        "DISPLAY",
+        0.6779661016949152
+    ],
+    "samples/RubikDistressed-Regular.png": [
+        "DISPLAY",
+        0.7428571428571429
+    ],
+    "samples/Fondamento-Regular.png": [
+        "HANDWRITING",
+        0.6622654621264767
+    ],
+    "samples/YatraOne-Regular.png": [
+        "DISPLAY",
+        0.6774668630338734
+    ],
+    "samples/NotoSansElbasan-Regular.png": [
+        "SANS_SERIF",
+        0.7843137254901961
+    ],
+    "samples/Wallpoet-Regular.png": [
+        "DISPLAY",
+        0.7652173913043478
+    ],
+    "samples/MonomaniacOne-Regular.png": [
+        "SANS_SERIF",
+        0.7662721893491125
+    ],
+    "samples/HindColombo-Regular.png": [
+        "SANS_SERIF",
+        0.7437407952871871
+    ],
+    "samples/Magra-Regular.png": [
+        "SANS_SERIF",
+        0.75
+    ],
+    "samples/Blaka-Regular.png": [
+        "DISPLAY",
+        0.7507507507507507
+    ],
+    "samples/FiraSansCondensed-Regular.png": [
+        "SANS_SERIF",
+        0.7645348837209303
+    ],
+    "samples/Macondo-Regular.png": [
+        "DISPLAY",
+        0.4528301886792453
+    ],
+    "samples/NotoSansLydian-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/Flavors-Regular.png": [
+        "DISPLAY",
+        1.0549313358302121
+    ],
+    "samples/MeriendaOne-Regular.png": [
+        "HANDWRITING",
+        0.8633257403189066
+    ],
+    "samples/Battambang-Regular.png": [
+        "DISPLAY",
+        0.7510259917920656
+    ],
+    "samples/LondrinaShadow-Regular.png": [
+        "DISPLAY",
+        0.703601108033241
+    ],
+    "samples/PalanquinDark-Regular.png": [
+        "SANS_SERIF",
+        0.7142857142857143
+    ],
+    "samples/LibreBarcode39Extended-Regular.png": [
+        "DISPLAY",
+        0.6779661016949152
+    ],
+    "samples/EmblemaOne-Regular.png": [
+        "DISPLAY",
+        0.7362233651726672
+    ],
+    "samples/RozhaOne-Regular.png": [
+        "SERIF",
+        0.8214285714285714
+    ],
+    "samples/EricaOne-Regular.png": [
+        "DISPLAY",
+        0.8552821997105644
+    ],
+    "samples/NotoSerifMyanmar-Regular.png": [
+        "SERIF",
+        0.7507002801120448
+    ],
+    "samples/RibeyeMarrow-Regular.png": [
+        "DISPLAY",
+        0.7267123287671233
+    ],
+    "samples/AsapCondensed-Regular.png": [
+        "SANS_SERIF",
+        0.7471428571428571
+    ],
+    "samples/Sansita-Regular.png": [
+        "SANS_SERIF",
+        0.7727272727272727
+    ],
+    "samples/NotoSansMarchen-Regular.png": [
+        "SANS_SERIF",
+        1.0
+    ],
+    "samples/TitilliumWeb-Regular.png": [
+        "SANS_SERIF",
+        0.7225433526011561
+    ],
+    "samples/NotoSansOsage-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/Mirza-Regular.png": [
+        "DISPLAY",
+        0.7142857142857143
+    ],
+    "samples/Alef-Regular.png": [
+        "SANS_SERIF",
+        0.7232267037552156
+    ],
+    "samples/TiroBangla-Regular.png": [
+        "SERIF",
+        0.6795422031473534
+    ],
+    "samples/Montaga-Regular.png": [
+        "SERIF",
+        0.6657142857142857
+    ],
+    "samples/PortLligatSans-Regular.png": [
+        "SANS_SERIF",
+        1.424
+    ],
+    "samples/AguafinaScript-Regular.png": [
+        "HANDWRITING",
+        0.4564102564102564
+    ],
+    "samples/Sail-Regular.png": [
+        "DISPLAY",
+        0.6531531531531531
+    ],
+    "samples/Engagement-Regular.png": [
+        "HANDWRITING",
+        0.43533333333333335
+    ],
+    "samples/Spinnaker-Regular.png": [
+        "SANS_SERIF",
+        0.7062146892655368
+    ],
+    "samples/KaiseiHarunoUmi-Regular.png": [
+        "SERIF",
+        0.6788617886178862
+    ],
+    "samples/RocknRollOne-Regular.png": [
+        "SANS_SERIF",
+        0.715
+    ],
+    "samples/CherryBombOne-Regular.png": [
+        "DISPLAY",
+        0.6714285714285714
+    ],
+    "samples/MarckScript-Regular.png": [
+        "HANDWRITING",
+        0.4122257053291536
+    ],
+    "samples/CormorantUnicase-Regular.png": [
+        "SERIF",
+        0.6176
+    ],
+    "samples/BIZUDGothic-Regular.png": [
+        "SANS_SERIF",
+        0.7070835992342055
+    ],
+    "samples/Orienta-Regular.png": [
+        "SANS_SERIF",
+        0.7571428571428571
+    ],
+    "samples/Homenaje-Regular.png": [
+        "SANS_SERIF",
+        0.7428571428571429
+    ],
+    "samples/MrDeHaviland-Regular.png": [
+        "HANDWRITING",
+        0.3895870736086176
+    ],
+    "samples/ZhiMangXing-Regular.png": [
+        "HANDWRITING",
+        0.6613333333333333
+    ],
+    "samples/Voces-Regular.png": [
+        "DISPLAY",
+        0.7428571428571429
+    ],
+    "samples/NovaScript-Regular.png": [
+        "DISPLAY",
+        0.7225806451612903
+    ],
+    "samples/Piedra-Regular.png": [
+        "DISPLAY",
+        0.667175572519084
+    ],
+    "samples/Forum-Regular.png": [
+        "DISPLAY",
+        0.6363636363636364
+    ],
+    "samples/Enriqueta-Regular.png": [
+        "SERIF",
+        0.6666666666666666
+    ],
+    "samples/EagleLake-Regular.png": [
+        "HANDWRITING",
+        0.7206851119894598
+    ],
+    "samples/Revalia-Regular.png": [
+        "DISPLAY",
+        1.2969283276450512
+    ],
+    "samples/LilyScriptOne-Regular.png": [
+        "DISPLAY",
+        1.0
+    ],
+    "samples/Questrial-Regular.png": [
+        "SANS_SERIF",
+        0.7552870090634441
+    ],
+    "samples/Qahiri-Regular.png": [
+        "SANS_SERIF",
+        0.4107142857142857
+    ],
+    "samples/BIZUDPGothic-Regular.png": [
+        "SANS_SERIF",
+        0.7070835992342055
+    ],
+    "samples/Dongle-Regular.png": [
+        "SANS_SERIF",
+        0.7088607594936709
+    ],
+    "samples/FlowBlock-Regular.png": [
+        "DISPLAY",
+        0.5
+    ],
+    "samples/Kavoon-Regular.png": [
+        "DISPLAY",
+        0.7745098039215687
+    ],
+    "samples/Risque-Regular.png": [
+        "DISPLAY",
+        0.719037508846426
+    ],
+    "samples/ShortStack-Regular.png": [
+        "HANDWRITING",
+        0.5544989027066569
+    ],
+    "samples/MuktaMalar-Regular.png": [
+        "SANS_SERIF",
+        0.7428571428571429
+    ],
+    "samples/Karma-Regular.png": [
+        "SERIF",
+        0.7223042836041359
+    ],
+    "samples/Bonbon-Regular.png": [
+        "HANDWRITING",
+        0.782608695652174
+    ],
+    "samples/ArimaMadurai-Regular.png": [
+        "DISPLAY",
+        0.7271428571428571
+    ],
+    "samples/Vibes-Regular.png": [
+        "DISPLAY",
+        13.157894736842104
+    ],
+    "samples/EncodeSansSemiExpanded-Regular.png": [
+        "SANS_SERIF",
+        0.7331081081081081
+    ],
+    "samples/MeieScript-Regular.png": [
+        "HANDWRITING",
+        0.41067285382830626
+    ],
+    "samples/Khula-Regular.png": [
+        "SANS_SERIF",
+        0.7492401215805471
+    ],
+    "samples/LavishlyYours-Regular.png": [
+        "HANDWRITING",
+        0.3128205128205128
+    ],
+    "samples/IBMPlexSerif-Regular.png": [
+        "SERIF",
+        0.7392550143266475
+    ],
+    "samples/HappyMonkey-Regular.png": [
+        "DISPLAY",
+        0.7153075822603719
+    ],
+    "samples/Alike-Regular.png": [
+        "SERIF",
+        0.7163120567375887
+    ],
+    "samples/ZCOOLQingKeHuangYou-Regular.png": [
+        "SANS_SERIF",
+        0.6830985915492958
+    ],
+    "samples/BungeeInline-Regular.png": [
+        "DISPLAY",
+        0.6944444444444444
+    ],
+    "samples/UnicaOne-Regular.png": [
+        "DISPLAY",
+        1.0
+    ],
+    "samples/AbrilFatface-Regular.png": [
+        "DISPLAY",
+        0.68
+    ],
+    "samples/Felipa-Regular.png": [
+        "HANDWRITING",
+        0.6662234042553191
+    ],
+    "samples/Updock-Regular.png": [
+        "HANDWRITING",
+        0.5555555555555556
+    ],
+    "samples/Angkor-Regular.png": [
+        "DISPLAY",
+        0.7510259917920656
+    ],
+    "samples/Lacquer-Regular.png": [
+        "DISPLAY",
+        0.7142857142857143
+    ],
+    "samples/Andika-Regular.png": [
+        "SANS_SERIF",
+        0.7003367003367004
+    ],
+    "samples/DeliusUnicase-Regular.png": [
+        "HANDWRITING",
+        1.641025641025641
+    ],
+    "samples/Asar-Regular.png": [
+        "SERIF",
+        0.711764705882353
+    ],
+    "samples/BlakaHollow-Regular.png": [
+        "DISPLAY",
+        0.7507507507507507
+    ],
+    "samples/ModernAntiqua-Regular.png": [
+        "DISPLAY",
+        0.7207147584381205
+    ],
+    "samples/B612Mono-Regular.png": [
+        "MONOSPACE",
+        0.7333333333333333
+    ],
+    "samples/MissFajardose-Regular.png": [
+        "HANDWRITING",
+        0.24012158054711247
+    ],
+    "samples/InknutAntiqua-Regular.png": [
+        "SERIF",
+        0.6755725190839694
+    ],
+    "samples/BethEllen-Regular.png": [
+        "HANDWRITING",
+        0.5373665480427047
+    ],
+    "samples/Sancreek-Regular.png": [
+        "DISPLAY",
+        1.4306049822064058
+    ],
+    "samples/Ewert-Regular.png": [
+        "DISPLAY",
+        1.0
+    ],
+    "samples/Chango-Regular.png": [
+        "DISPLAY",
+        0.7271428571428571
+    ],
+    "samples/Telex-Regular.png": [
+        "SANS_SERIF",
+        0.7259887005649718
+    ],
+    "samples/NuosuSIL-Regular.png": [
+        "SERIF",
+        0.5555555555555556
+    ],
+    "samples/Gorditas-Regular.png": [
+        "DISPLAY",
+        0.7210526315789474
+    ],
+    "samples/PT_Sans-Web-Regular.png": [
+        "SANS_SERIF",
+        0.7142857142857143
+    ],
+    "samples/AlegreyaSC-Regular.png": [
+        "SERIF",
+        0.710691823899371
+    ],
+    "samples/PuppiesPlay-Regular.png": [
+        "HANDWRITING",
+        0.49056603773584906
+    ],
+    "samples/Lekton-Regular.png": [
+        "SANS_SERIF",
+        0.7251908396946565
+    ],
+    "samples/DMMono-Regular.png": [
+        "MONOSPACE",
+        0.7085714285714285
+    ],
+    "samples/Handlee-Regular.png": [
+        "HANDWRITING",
+        0.7557077625570776
+    ],
+    "samples/ProstoOne-Regular.png": [
+        "DISPLAY",
+        0.7428571428571429
+    ],
+    "samples/NotoSansSamaritan-Regular.png": [
+        "SANS_SERIF",
+        0.8133535660091047
+    ],
+    "samples/NotoSansMyanmarUI-Regular.png": [
+        "SANS_SERIF",
+        0.8375
+    ],
+    "samples/NotoSansPsalterPahlavi-Regular.png": [
+        "SANS_SERIF",
+        0.7504
+    ],
+    "samples/LuxuriousScript-Regular.png": [
+        "HANDWRITING",
+        0.584070796460177
+    ],
+    "samples/Dorsa-Regular.png": [
+        "SANS_SERIF",
+        0.7142857142857143
+    ],
+    "samples/Gaegu-Regular.png": [
+        "HANDWRITING",
+        0.6476190476190476
+    ],
+    "samples/KellySlab-Regular.png": [
+        "DISPLAY",
+        0.6666666666666666
+    ],
+    "samples/TiroDevanagariSanskrit-Regular.png": [
+        "SERIF",
+        0.6838340486409156
+    ],
+    "samples/NotoSansBuhid-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/Audiowide-Regular.png": [
+        "DISPLAY",
+        0.7552301255230126
+    ],
+    "samples/Silkscreen-Regular.png": [
+        "DISPLAY",
+        0.7142857142857143
+    ],
+    "samples/Hind-Regular.png": [
+        "SANS_SERIF",
+        0.7437407952871871
+    ],
+    "samples/NewTegomin-Regular.png": [
+        "SERIF",
+        0.6897637795275591
+    ],
+    "samples/RubikDirt-Regular.png": [
+        "DISPLAY",
+        0.7428571428571429
+    ],
+    "samples/CaesarDressing-Regular.png": [
+        "DISPLAY",
+        0.9987063389391979
+    ],
+    "samples/BIZUDPMincho-Regular.png": [
+        "SERIF",
+        0.7070835992342055
+    ],
+    "samples/Sura-Regular.png": [
+        "SERIF",
+        0.6980874316939891
+    ],
+    "samples/AtkinsonHyperlegible-Regular.png": [
+        "SANS_SERIF",
+        0.7425149700598802
+    ],
+    "samples/OdorMeanChey-Regular.png": [
+        "SERIF",
+        0.7510259917920656
+    ],
+    "samples/AlfaSlabOne-Regular.png": [
+        "DISPLAY",
+        0.7146529562982005
+    ],
+    "samples/RammettoOne-Regular.png": [
+        "DISPLAY",
+        0.778334376956794
+    ],
+    "samples/Staatliches-Regular.png": [
+        "DISPLAY",
+        0.7183908045977011
+    ],
+    "samples/Mynerve-Regular.png": [
+        "HANDWRITING",
+        0.6268656716417911
+    ],
+    "samples/Nosifer-Regular.png": [
+        "DISPLAY",
+        1.0831381733021077
+    ],
+    "samples/Prompt-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/PT_Serif-Web-Regular.png": [
+        "SERIF",
+        0.7142857142857143
+    ],
+    "samples/TiroDevanagariMarathi-Regular.png": [
+        "SERIF",
+        0.6838340486409156
+    ],
+    "samples/Coustard-Regular.png": [
+        "SERIF",
+        3.1647398843930636
+    ],
+    "samples/Mansalva-Regular.png": [
+        "HANDWRITING",
+        0.5470085470085471
+    ],
+    "samples/Karantina-Regular.png": [
+        "DISPLAY",
+        0.7142857142857143
+    ],
+    "samples/Ruluko-Regular.png": [
+        "SANS_SERIF",
+        0.6811594202898551
+    ],
+    "samples/BIZUDMincho-Regular.png": [
+        "SERIF",
+        0.7070835992342055
+    ],
+    "samples/TenaliRamakrishna-Regular.png": [
+        "SANS_SERIF",
+        0.7302452316076294
+    ],
+    "samples/OldStandard-Regular.png": [
+        "SERIF",
+        0.6404494382022472
+    ],
+    "samples/NotoSansDuployan-Regular.png": [
+        "SANS_SERIF",
+        0.7342465753424657
+    ],
+    "samples/Ramabhadra-Regular.png": [
+        "SANS_SERIF",
+        0.7688266199649737
+    ],
+    "samples/Corben-Regular.png": [
+        "DISPLAY",
+        0.6823361823361823
+    ],
+    "samples/OxygenMono-Regular.png": [
+        "MONOSPACE",
+        0.7357478202548625
+    ],
+    "samples/NotoSansLinearA-Regular.png": [
+        "SANS_SERIF",
+        0.67
+    ],
+    "samples/IBMPlexSansArabic-Regular.png": [
+        "SANS_SERIF",
+        0.7392550143266475
+    ],
+    "samples/DidactGothic-Regular.png": [
+        "SANS_SERIF",
+        0.6862170087976539
+    ],
+    "samples/MooLahLah-Regular.png": [
+        "DISPLAY",
+        0.8692307692307693
+    ],
+    "samples/ZenMaruGothic-Regular.png": [
+        "SANS_SERIF",
+        0.6842857142857143
+    ],
+    "samples/Jomolhari-Regular.png": [
+        "SERIF",
+        0.47619047619047616
+    ],
+    "samples/Smythe-Regular.png": [
+        "DISPLAY",
+        0.7312072892938497
+    ],
+    "samples/Chilanka-Regular.png": [
+        "HANDWRITING",
+        0.6899171270718232
+    ],
+    "samples/Righteous-Regular.png": [
+        "DISPLAY",
+        0.7510460251046025
+    ],
+    "samples/Mada-Regular.png": [
+        "SANS_SERIF",
+        0.7363636363636363
+    ],
+    "samples/Suranna-Regular.png": [
+        "SERIF",
+        0.6483739837398373
+    ],
+    "samples/TurretRoad-Regular.png": [
+        "DISPLAY",
+        0.6828571428571428
+    ],
+    "samples/Corinthia-Regular.png": [
+        "HANDWRITING",
+        0.4485981308411215
+    ],
+    "samples/Metrophobic-Regular.png": [
+        "SANS_SERIF",
+        0.7015961138098543
+    ],
+    "samples/LiuJianMaoCao-Regular.png": [
+        "HANDWRITING",
+        0.7
+    ],
+    "samples/Sarala-Regular.png": [
+        "SANS_SERIF",
+        0.7262068965517241
+    ],
+    "samples/NotoSansTagbanwa-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/NanumPenScript-Regular.png": [
+        "HANDWRITING",
+        0.7062314540059347
+    ],
+    "samples/BowlbyOne-Regular.png": [
+        "DISPLAY",
+        0.7868421052631579
+    ],
+    "samples/FuzzyBubbles-Regular.png": [
+        "HANDWRITING",
+        0.7761194029850746
+    ],
+    "samples/Oregano-Regular.png": [
+        "DISPLAY",
+        0.5917808219178082
+    ],
+    "samples/Rosarivo-Regular.png": [
+        "SERIF",
+        0.22457067371202113
+    ],
+    "samples/Inspiration-Regular.png": [
+        "HANDWRITING",
+        0.5
+    ],
+    "samples/DarumadropOne-Regular.png": [
+        "DISPLAY",
+        0.7372881355932204
+    ],
+    "samples/WixMadeforText-Regular.png": [
+        "SANS_SERIF",
+        0.6881118881118881
+    ],
+    "samples/Sumana-Regular.png": [
+        "SERIF",
+        0.7142857142857143
+    ],
+    "samples/DotGothic16-Regular.png": [
+        "SANS_SERIF",
+        0.6861499364675985
+    ],
+    "samples/Slabo13px-Regular.png": [
+        "SERIF",
+        0.7777777777777778
+    ],
+    "samples/SawarabiMincho-Regular.png": [
+        "SERIF",
+        0.7042640990371389
+    ],
+    "samples/AllertaStencil-Regular.png": [
+        "SANS_SERIF",
+        0.7652645861601085
+    ],
+    "samples/ZCOOLXiaoWei-Regular.png": [
+        "SANS_SERIF",
+        0.7121212121212122
+    ],
+    "samples/FascinateInline-Regular.png": [
+        "DISPLAY",
+        0.713091922005571
+    ],
+    "samples/NotoSansBuginese-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/Fasthand-Regular.png": [
+        "DISPLAY",
+        0.7510259917920656
+    ],
+    "samples/PlayfairDisplaySC-Regular.png": [
+        "SERIF",
+        0.7259887005649718
+    ],
+    "samples/Asul-Regular.png": [
+        "SANS_SERIF",
+        0.6941678520625889
+    ],
+    "samples/BungeeOutline-Regular.png": [
+        "DISPLAY",
+        0.6944444444444444
+    ],
+    "samples/JotiOne-Regular.png": [
+        "DISPLAY",
+        0.7518796992481203
+    ],
+    "samples/ZenAntique-Regular.png": [
+        "SERIF",
+        0.6515151515151515
+    ],
+    "samples/KleeOne-Regular.png": [
+        "HANDWRITING",
+        0.6733812949640288
+    ],
+    "samples/Athiti-Regular.png": [
+        "SANS_SERIF",
+        0.762214983713355
+    ],
+    "samples/MajorMonoDisplay-Regular.png": [
+        "MONOSPACE",
+        1.0
+    ],
+    "samples/GamjaFlower-Regular.png": [
+        "HANDWRITING",
+        0.591254752851711
+    ],
+    "samples/StyleScript-Regular.png": [
+        "HANDWRITING",
+        0.62
+    ],
+    "samples/Suwannaphum-Regular.png": [
+        "SERIF",
+        0.7510259917920656
+    ],
+    "samples/BowlbyOneSC-Regular.png": [
+        "DISPLAY",
+        0.9157894736842105
+    ],
+    "samples/Rowdies-Regular.png": [
+        "DISPLAY",
+        0.6680790960451978
+    ],
+    "samples/MrBedfort-Regular.png": [
+        "HANDWRITING",
+        0.3181818181818182
+    ],
+    "samples/NotoSansMultani-Regular.png": [
+        "SANS_SERIF",
+        0.8095238095238095
+    ],
+    "samples/MuktaVaani-Regular.png": [
+        "SANS_SERIF",
+        0.7428571428571429
+    ],
+    "samples/CherrySwash-Regular.png": [
+        "DISPLAY",
+        0.7142857142857143
+    ],
+    "samples/IBMPlexMono-Regular.png": [
+        "MONOSPACE",
+        0.7392550143266475
+    ],
+    "samples/IngridDarling-Regular.png": [
+        "HANDWRITING",
+        0.46875
+    ],
+    "samples/NotoSansTirhuta-Regular.png": [
+        "SANS_SERIF",
+        0.8617363344051447
+    ],
+    "samples/ShipporiAntique-Regular.png": [
+        "SANS_SERIF",
+        0.7148703956343793
+    ],
+    "samples/FaunaOne-Regular.png": [
+        "SERIF",
+        0.7835616438356164
+    ],
+    "samples/SupermercadoOne-Regular.png": [
+        "DISPLAY",
+        0.7844002943340692
+    ],
+    "samples/ShadowsIntoLightTwo-Regular.png": [
+        "HANDWRITING",
+        0.7193396226415094
+    ],
+    "samples/Festive-Regular.png": [
+        "HANDWRITING",
+        0.45
+    ],
+    "samples/TenorSans-Regular.png": [
+        "SANS_SERIF",
+        0.7142857142857143
+    ],
+    "samples/Bellota-Regular.png": [
+        "DISPLAY",
+        0.7309941520467836
+    ],
+    "samples/Fenix-Regular.png": [
+        "SERIF",
+        0.6923076923076923
+    ],
+    "samples/ZillaSlab-Regular.png": [
+        "SERIF",
+        0.6846153846153846
+    ],
+    "samples/Copse-Regular.png": [
+        "SERIF",
+        0.6651162790697674
+    ],
+    "samples/Qwigley-Regular.png": [
+        "HANDWRITING",
+        0.6521739130434783
+    ],
+    "samples/Freehand-Regular.png": [
+        "DISPLAY",
+        0.7510259917920656
+    ],
+    "samples/PathwayGothicOne-Regular.png": [
+        "SANS_SERIF",
+        0.7714285714285715
+    ],
+    "samples/EmilysCandy-Regular.png": [
+        "DISPLAY",
+        0.6942257217847769
+    ],
+    "samples/CormorantInfant-Regular.png": [
+        "SERIF",
+        0.6176
+    ],
+    "samples/LifeSavers-Regular.png": [
+        "DISPLAY",
+        0.5310596833130329
+    ],
+    "samples/Butcherman-Regular.png": [
+        "DISPLAY",
+        1.0079522862823063
+    ],
+    "samples/PottaOne-Regular.png": [
+        "DISPLAY",
+        0.7243589743589743
+    ],
+    "samples/Sarpanch-Regular.png": [
+        "SANS_SERIF",
+        0.7797427652733119
+    ],
+    "samples/NotoColorEmojiCompatTest-Regular.png": [
+        "SANS_SERIF",
+        0.7140864714086471
+    ],
+    "samples/NotoSansSylotiNagri-Regular.png": [
+        "SANS_SERIF",
+        0.7893961708394698
+    ],
+    "samples/Cambo-Regular.png": [
+        "SERIF",
+        0.7485207100591716
+    ],
+    "samples/Galada-Regular.png": [
+        "DISPLAY",
+        0.6666666666666666
+    ],
+    "samples/BioRhyme-Regular.png": [
+        "SERIF",
+        0.6865889212827988
+    ],
+    "samples/Peddana-Regular.png": [
+        "SERIF",
+        0.7325227963525835
+    ],
+    "samples/Notable-Regular.png": [
+        "SANS_SERIF",
+        0.5085714285714286
+    ],
+    "samples/DarkerGrotesque-Regular.png": [
+        "SANS_SERIF",
+        0.7211367673179396
+    ],
+    "samples/DaysOne-Regular.png": [
+        "SANS_SERIF",
+        0.7642956764295676
+    ],
+    "samples/Marvel-Regular.png": [
+        "SANS_SERIF",
+        0.7142857142857143
+    ],
+    "samples/Charmonman-Regular.png": [
+        "HANDWRITING",
+        0.6
+    ],
+    "samples/OleoScriptSwashCaps-Regular.png": [
+        "DISPLAY",
+        0.5930388219544847
+    ],
+    "samples/NotoSansNKo-Regular.png": [
+        "SANS_SERIF",
+        0.7184873949579832
+    ],
+    "samples/MysteryQuest-Regular.png": [
+        "DISPLAY",
+        0.8140442132639792
+    ],
+    "samples/DavidLibre-Regular.png": [
+        "SERIF",
+        0.7272058823529411
+    ],
+    "samples/OdibeeSans-Regular.png": [
+        "DISPLAY",
+        0.7142857142857143
+    ],
+    "samples/NosiferCaps-Regular.png": [
+        "DISPLAY",
+        1.0831381733021077
+    ],
+    "samples/FanwoodText-Regular.png": [
+        "SERIF",
+        1.2527301092043681
+    ],
+    "samples/NotoSansOldPersian-Regular.png": [
+        "SANS_SERIF",
+        0.7403314917127072
+    ],
+    "samples/NotoSansInscriptionalPahlavi-Regular.png": [
+        "SANS_SERIF",
+        0.7052631578947368
+    ],
+    "samples/NotoSansEgyptianHieroglyphs-Regular.png": [
+        "SANS_SERIF",
+        0.5955555555555555
+    ],
+    "samples/RubikOne-Regular.png": [
+        "SANS_SERIF",
+        0.7428571428571429
+    ],
+    "samples/PoiretOne-Regular.png": [
+        "DISPLAY",
+        0.6
+    ],
+    "samples/Bahianita-Regular.png": [
+        "DISPLAY",
+        0.819718309859155
+    ],
+    "samples/FreckleFace-Regular.png": [
+        "DISPLAY",
+        0.7338451695457454
+    ],
+    "samples/AkayaKanadaka-Regular.png": [
+        "DISPLAY",
+        0.6246056782334385
+    ],
+    "samples/EuphoriaScript-Regular.png": [
+        "HANDWRITING",
+        1.2554744525547445
+    ],
+    "samples/KohSantepheap-Regular.png": [
+        "DISPLAY",
+        0.7142857142857143
+    ],
+    "samples/KarlaTamilInclined-Regular.png": [
+        "SANS_SERIF",
+        0.6959553695955369
+    ],
+    "samples/Junge-Regular.png": [
+        "SERIF",
+        0.6994459833795014
+    ],
+    "samples/NotoSansMahajani-Regular.png": [
+        "SANS_SERIF",
+        0.8933333333333333
+    ],
+    "samples/Chonburi-Regular.png": [
+        "DISPLAY",
+        0.7507002801120448
+    ],
+    "samples/NotoSansGujaratiUI-Regular.png": [
+        "SANS_SERIF",
+        0.9054054054054054
+    ],
+    "samples/KarlaTamilUpright-Regular.png": [
+        "SANS_SERIF",
+        0.6918844566712518
+    ],
+    "samples/Economica-Regular.png": [
+        "SANS_SERIF",
+        0.7083333333333334
+    ],
+    "samples/GentiumPlus-Regular.png": [
+        "SERIF",
+        0.7380952380952381
+    ],
+    "samples/NotoSansElymaic-Regular.png": [
+        "SANS_SERIF",
+        1.0
+    ],
+    "samples/HerrVonMuellerhoff-Regular.png": [
+        "HANDWRITING",
+        0.41770186335403725
+    ],
+    "samples/PorterSansBlock-Regular.png": [
+        "DISPLAY",
+        0.7142857142857143
+    ],
+    "samples/NotoSansGrantha-Regular.png": [
+        "SANS_SERIF",
+        0.7927170868347339
+    ],
+    "samples/HachiMaruPop-Regular.png": [
+        "HANDWRITING",
+        0.7142857142857143
+    ],
+    "samples/Sedan-Regular.png": [
+        "SERIF",
+        0.6642441860465116
+    ],
+    "samples/FlowRounded-Regular.png": [
+        "DISPLAY",
+        0.734375
+    ],
+    "samples/TextMeOne-Regular.png": [
+        "SANS_SERIF",
+        0.7171428571428572
+    ],
+    "samples/GowunDodum-Regular.png": [
+        "SANS_SERIF",
+        0.6967741935483871
+    ],
+    "samples/Fahkwang-Regular.png": [
+        "SANS_SERIF",
+        0.7
+    ],
+    "samples/NotoSans-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/Uchen-Regular.png": [
+        "SERIF",
+        0.6518817204301075
+    ],
+    "samples/Charm-Regular.png": [
+        "HANDWRITING",
+        0.6812865497076024
+    ],
+    "samples/ImperialScript-Regular.png": [
+        "HANDWRITING",
+        0.5241935483870968
+    ],
+    "samples/Alata-Regular.png": [
+        "SANS_SERIF",
+        0.6244897959183674
+    ],
+    "samples/Oldenburg-Regular.png": [
+        "DISPLAY",
+        0.30996784565916397
+    ],
+    "samples/YeonSung-Regular.png": [
+        "DISPLAY",
+        0.6767830045523521
+    ],
+    "samples/GothicA1-Regular.png": [
+        "SANS_SERIF",
+        0.7182910547396528
+    ],
+    "samples/Cookie-Regular.png": [
+        "HANDWRITING",
+        0.3685897435897436
+    ],
+    "samples/HindSiliguri-Regular.png": [
+        "SANS_SERIF",
+        0.7437407952871871
+    ],
+    "samples/MateSC-Regular.png": [
+        "SERIF",
+        0.6757142857142857
+    ],
+    "samples/Vidaloka-Regular.png": [
+        "SERIF",
+        0.7035739313244569
+    ],
+    "samples/Niconne-Regular.png": [
+        "HANDWRITING",
+        0.15117891816920942
+    ],
+    "samples/NotoSansOgham-Regular.png": [
+        "SANS_SERIF",
+        0.7712230215827338
+    ],
+    "samples/VujahdayScript-Regular.png": [
+        "HANDWRITING",
+        0.5625
+    ],
+    "samples/RampartOne-Regular.png": [
+        "DISPLAY",
+        0.7264397905759162
+    ],
+    "samples/GideonRoman-Regular.png": [
+        "DISPLAY",
+        0.7196969696969697
+    ],
+    "samples/PetitFormalScript-Regular.png": [
+        "HANDWRITING",
+        0.7364822871348664
+    ],
+    "samples/Kanit-Regular.png": [
+        "SANS_SERIF",
+        0.7360248447204969
+    ],
+    "samples/OrelegaOne-Regular.png": [
+        "DISPLAY",
+        0.7419354838709677
+    ],
+    "samples/Koulen-Regular.png": [
+        "DISPLAY",
+        0.7510259917920656
+    ],
+    "samples/LibreCaslonDisplay-Regular.png": [
+        "SERIF",
+        0.6144927536231884
+    ],
+    "samples/AlegreyaSansSC-Regular.png": [
+        "SANS_SERIF",
+        0.7145085803432137
+    ],
+    "samples/Barriecito-Regular.png": [
+        "DISPLAY",
+        0.819718309859155
+    ],
+    "samples/NotoSansPalmyrene-Regular.png": [
+        "SANS_SERIF",
+        0.8226221079691517
+    ],
+    "samples/NotoSansCaucasianAlbanian-Regular.png": [
+        "SANS_SERIF",
+        0.5742296918767507
+    ],
+    "samples/Unlock-Regular.png": [
+        "DISPLAY",
+        0.8661417322834646
+    ],
+    "samples/SpaceMono-Regular.png": [
+        "MONOSPACE",
+        0.7085714285714285
+    ],
+    "samples/Rakkas-Regular.png": [
+        "DISPLAY",
+        0.6716417910447762
+    ],
+    "samples/NotoSansOldSogdian-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/NotoSansPahawhHmong-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/Plaster-Regular.png": [
+        "DISPLAY",
+        0.7494489346069066
+    ],
+    "samples/Bellefair-Regular.png": [
+        "SERIF",
+        0.5290697674418605
+    ],
+    "samples/Pacifico-Regular.png": [
+        "HANDWRITING",
+        0.5476190476190477
+    ],
+    "samples/NotoSansSoyombo-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/RussoOne-Regular.png": [
+        "SANS_SERIF",
+        0.7571428571428571
+    ],
+    "samples/AlikeAngular-Regular.png": [
+        "SERIF",
+        0.7163120567375887
+    ],
+    "samples/Tillana-Regular.png": [
+        "HANDWRITING",
+        0.7459016393442623
+    ],
+    "samples/GreatVibes-Regular.png": [
+        "HANDWRITING",
+        0.43125
+    ],
+    "samples/RubikGemstones-Regular.png": [
+        "DISPLAY",
+        0.7428571428571429
+    ],
+    "samples/Chathura-Regular.png": [
+        "SANS_SERIF",
+        0.7277227722772277
+    ],
+    "samples/NotoSansLimbu-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/Belgrano-Regular.png": [
+        "SERIF",
+        0.7067988668555241
+    ],
+    "samples/Bevan-Regular.png": [
+        "DISPLAY",
+        0.6733668341708543
+    ],
+    "samples/Carme-Regular.png": [
+        "SANS_SERIF",
+        0.7140864714086471
+    ],
+    "samples/StintUltraCondensed-Regular.png": [
+        "DISPLAY",
+        0.6928675400291121
+    ],
+    "samples/Dokdo-Regular.png": [
+        "HANDWRITING",
+        0.5726315789473684
+    ],
+    "samples/Goldman-Regular.png": [
+        "DISPLAY",
+        0.7619047619047619
+    ],
+    "samples/RubikBeastly-Regular.png": [
+        "DISPLAY",
+        0.7428571428571429
+    ],
+    "samples/Amethysta-Regular.png": [
+        "SERIF",
+        0.6942372881355933
+    ],
+    "samples/PinyonScript-Regular.png": [
+        "HANDWRITING",
+        0.547550432276657
+    ],
+    "samples/BonaNova-Regular.png": [
+        "SERIF",
+        0.6616541353383458
+    ],
+    "samples/ClickerScript-Regular.png": [
+        "HANDWRITING",
+        0.4572901325478645
+    ],
+    "samples/BlackOpsOne-Regular.png": [
+        "DISPLAY",
+        0.8003014318010551
+    ],
+    "samples/CantoraOne-Regular.png": [
+        "SANS_SERIF",
+        0.7142857142857143
+    ],
+    "samples/MeeraInimai-Regular.png": [
+        "SANS_SERIF",
+        0.7232876712328767
+    ],
+    "samples/ArefRuqaa-Regular.png": [
+        "SERIF",
+        0.6764275256222547
+    ],
+    "samples/Blinker-Regular.png": [
+        "SANS_SERIF",
+        0.7878787878787878
+    ],
+    "samples/FrederickatheGreat-Regular.png": [
+        "DISPLAY",
+        0.6722797927461139
+    ],
+    "samples/NotoSansMongolian-Regular.png": [
+        "SANS_SERIF",
+        0.6218487394957983
+    ],
+    "samples/Sarina-Regular.png": [
+        "DISPLAY",
+        0.6679738562091503
+    ],
+    "samples/Belleza-Regular.png": [
+        "SANS_SERIF",
+        0.6827794561933535
+    ],
+    "samples/AmiriQuranColored-Regular.png": [
+        "SANS_SERIF",
+        0.6702786377708978
+    ],
+    "samples/Sen-Regular.png": [
+        "SANS_SERIF",
+        0.746268656716418
+    ],
+    "samples/NotoSansGothic-Regular.png": [
+        "SANS_SERIF",
+        0.8297213622291022
+    ],
+    "samples/NotoSansNewa-Regular.png": [
+        "SANS_SERIF",
+        0.8617363344051447
+    ],
+    "samples/Italiana-Regular.png": [
+        "SERIF",
+        0.7142857142857143
+    ],
+    "samples/HinaMincho-Regular.png": [
+        "SERIF",
+        0.5428571428571428
+    ],
+    "samples/BalsamiqSans-Regular.png": [
+        "DISPLAY",
+        0.7272727272727273
+    ],
+    "samples/NotoSerifGrantha-Regular.png": [
+        "SERIF",
+        0.7927170868347339
+    ],
+    "samples/ProzaLibre-Regular.png": [
+        "SANS_SERIF",
+        0.7235494880546075
+    ],
+    "samples/TwinkleStar-Regular.png": [
+        "HANDWRITING",
+        0.6666666666666666
+    ],
+    "samples/DiplomataSC-Regular.png": [
+        "DISPLAY",
+        0.8584615384615385
+    ],
+    "samples/BadScript-Regular.png": [
+        "HANDWRITING",
+        0.5260416666666666
+    ],
+    "samples/CormorantSC-Regular.png": [
+        "SERIF",
+        0.6176
+    ],
+    "samples/Julee-Regular.png": [
+        "HANDWRITING",
+        0.7391304347826086
+    ],
+    "samples/HindMadurai-Regular.png": [
+        "SANS_SERIF",
+        0.7437407952871871
+    ],
+    "samples/PatrickHandSC-Regular.png": [
+        "HANDWRITING",
+        0.7019667170953101
+    ],
+    "samples/RopaSans-Regular.png": [
+        "SANS_SERIF",
+        0.7450381679389313
+    ],
+    "samples/ReemKufiInk-Regular.png": [
+        "SANS_SERIF",
+        0.576551724137931
+    ],
+    "samples/FjallaOne-Regular.png": [
+        "SANS_SERIF",
+        0.8062060889929742
+    ],
+    "samples/Gabriela-Regular.png": [
+        "SERIF",
+        0.692200557103064
+    ],
+    "samples/AnticDidone-Regular.png": [
+        "SERIF",
+        0.7142857142857143
+    ],
+    "samples/Marmelad-Regular.png": [
+        "SANS_SERIF",
+        0.7080394922425952
+    ],
+    "samples/Solitreo-Regular.png": [
+        "HANDWRITING",
+        0.7
+    ],
+    "samples/K2D-Regular.png": [
+        "SANS_SERIF",
+        0.7142857142857143
+    ],
+    "samples/LondrinaOutline-Regular.png": [
+        "DISPLAY",
+        0.703601108033241
+    ],
+    "samples/Rye-Regular.png": [
+        "DISPLAY",
+        1.0661157024793388
+    ],
+    "samples/Condiment-Regular.png": [
+        "HANDWRITING",
+        0.9694189602446484
+    ],
+    "samples/PadyakkeExpandedOne-Regular.png": [
+        "DISPLAY",
+        0.6865384615384615
+    ],
+    "samples/NotoMusic-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/CevicheOne-Regular.png": [
+        "DISPLAY",
+        1.0611764705882354
+    ],
+    "samples/Miama-Regular.png": [
+        "HANDWRITING",
+        0.29642058165548096
+    ],
+    "samples/Mogra-Regular.png": [
+        "DISPLAY",
+        0.8014184397163121
+    ],
+    "samples/Artifika-Regular.png": [
+        "SERIF",
+        0.7292393579902303
+    ],
+    "samples/IBMPlexSansThai-Regular.png": [
+        "SANS_SERIF",
+        0.7392550143266475
+    ],
+    "samples/RUSerius-Regular.png": [
+        "HANDWRITING",
+        0.45454545454545453
+    ],
+    "samples/SongMyung-Regular.png": [
+        "SERIF",
+        0.7196850393700788
+    ],
+    "samples/Monda-Regular.png": [
+        "SANS_SERIF",
+        0.7330567081604425
+    ],
+    "samples/NotoColorEmoji-Regular.png": [
+        "SANS_SERIF",
+        0.7140864714086471
+    ],
+    "samples/NotoSerif-Regular.png": [
+        "SERIF",
+        0.7510259917920656
+    ],
+    "samples/LilitaOne-Regular.png": [
+        "DISPLAY",
+        0.71875
+    ],
+    "samples/IBMPlexSansHebrew-Regular.png": [
+        "SANS_SERIF",
+        0.7392550143266475
+    ],
+    "samples/Kameron-Regular.png": [
+        "SERIF",
+        0.6930232558139535
+    ],
+    "samples/NotoSansMayanNumerals-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/NanumBrushScript-Regular.png": [
+        "HANDWRITING",
+        0.6521739130434783
+    ],
+    "samples/KaiseiDecol-Regular.png": [
+        "SERIF",
+        0.6788617886178862
+    ],
+    "samples/MiltonianTattoo-Regular.png": [
+        "DISPLAY",
+        0.6589259796806967
+    ],
+    "samples/FlowCircular-Regular.png": [
+        "DISPLAY",
+        0.5
+    ],
+    "samples/HeadlandOne-Regular.png": [
+        "SERIF",
+        0.777124183006536
+    ],
+    "samples/NotoSansNabataean-Regular.png": [
+        "SANS_SERIF",
+        0.859375
+    ],
+    "samples/Delius-Regular.png": [
+        "HANDWRITING",
+        0.4358974358974359
+    ],
+    "samples/Viga-Regular.png": [
+        "SANS_SERIF",
+        0.8019662921348315
+    ],
+    "samples/MontserratAlternates-Regular.png": [
+        "SANS_SERIF",
+        0.75
+    ],
+    "samples/Fruktur-Regular.png": [
+        "DISPLAY",
+        0.7730542838456508
+    ],
+    "samples/Play-Regular.png": [
+        "SANS_SERIF",
+        0.7457627118644068
+    ],
+    "samples/Manjari-Regular.png": [
+        "SANS_SERIF",
+        0.7393501805054151
+    ],
+    "samples/Hurricane-Regular.png": [
+        "HANDWRITING",
+        0.5344262295081967
+    ],
+    "samples/PoorStory-Regular.png": [
+        "DISPLAY",
+        0.6068642745709828
+    ],
+    "samples/Capriola-Regular.png": [
+        "SANS_SERIF",
+        0.735812133072407
+    ],
+    "samples/Grenze-Regular.png": [
+        "SERIF",
+        0.7429519071310116
+    ],
+    "samples/NotoSansCarian-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/Electrolize-Regular.png": [
+        "SANS_SERIF",
+        0.7142857142857143
+    ],
+    "samples/ElsieSwashCaps-Regular.png": [
+        "DISPLAY",
+        0.7861538461538462
+    ],
+    "samples/BubblerOne-Regular.png": [
+        "SANS_SERIF",
+        0.7142857142857143
+    ],
+    "samples/ButterflyKids-Regular.png": [
+        "HANDWRITING",
+        0.42144638403990026
+    ],
+    "samples/KirangHaerang-Regular.png": [
+        "DISPLAY",
+        0.6039426523297491
+    ],
+    "samples/Judson-Regular.png": [
+        "SERIF",
+        0.7521367521367521
+    ],
+    "samples/Modak-Regular.png": [
+        "DISPLAY",
+        0.851937984496124
+    ],
+    "samples/Jomhuria-Regular.png": [
+        "DISPLAY",
+        0.7252559726962458
+    ],
+    "samples/RoadRage-Regular.png": [
+        "DISPLAY",
+        0.75
+    ],
+    "samples/PortLligatSlab-Regular.png": [
+        "SERIF",
+        1.5656565656565657
+    ],
+    "samples/BirthstoneBounce-Regular.png": [
+        "HANDWRITING",
+        0.5571428571428572
+    ],
+    "samples/JollyLodger-Regular.png": [
+        "DISPLAY",
+        0.8480845442536328
+    ],
+    "samples/Tienne-Regular.png": [
+        "SERIF",
+        0.25260960334029225
+    ],
+    "samples/Kenia-Regular.png": [
+        "DISPLAY",
+        0.7042640990371389
+    ],
+    "samples/Bangers-Regular.png": [
+        "DISPLAY",
+        1.0
+    ],
+    "samples/Ephesis-Regular.png": [
+        "HANDWRITING",
+        0.44776119402985076
+    ],
+    "samples/LeagueScript-Regular.png": [
+        "HANDWRITING",
+        0.5790598290598291
+    ],
+    "samples/NanumGothic-Regular.png": [
+        "HANDWRITING",
+        0.7294751009421265
+    ],
+    "samples/Joan-Regular.png": [
+        "SERIF",
+        0.6449787835926449
+    ],
+    "samples/RubikMaze-Regular.png": [
+        "DISPLAY",
+        0.7428571428571429
+    ],
+    "samples/Livvic-Regular.png": [
+        "SANS_SERIF",
+        0.7
+    ],
+    "samples/TiroKannada-Regular.png": [
+        "SERIF",
+        0.6795422031473534
+    ],
+    "samples/PT_Sans-Caption-Web-Regular.png": [
+        "SANS_SERIF",
+        0.75
+    ],
+    "samples/NotoSansBatak-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/Oi-Regular.png": [
+        "DISPLAY",
+        0.9157894736842105
+    ],
+    "samples/YujiMai-Regular.png": [
+        "SERIF",
+        0.7161629434954008
+    ],
+    "samples/NotoSansLepcha-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/RacingSansOne-Regular.png": [
+        "DISPLAY",
+        0.6771653543307087
+    ],
+    "samples/HermeneusOne-Regular.png": [
+        "SANS_SERIF",
+        0.6944444444444444
+    ],
+    "samples/Allan-Regular.png": [
+        "DISPLAY",
+        0.7012811867835469
+    ],
+    "samples/LeckerliOne-Regular.png": [
+        "HANDWRITING",
+        0.5758157389635317
+    ],
+    "samples/NotoSansGlagolitic-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/TiroTamil-Regular.png": [
+        "SERIF",
+        0.6838340486409156
+    ],
+    "samples/Marcellus-Regular.png": [
+        "SERIF",
+        0.7140864714086471
+    ],
+    "samples/SingleDay-Regular.png": [
+        "DISPLAY",
+        0.6701030927835051
+    ],
+    "samples/Amaranth-Regular.png": [
+        "SANS_SERIF",
+        0.7355982274741507
+    ],
+    "samples/DeliusSwashCaps-Regular.png": [
+        "HANDWRITING",
+        0.40070921985815605
+    ],
+    "samples/BungeeHairline-Regular.png": [
+        "DISPLAY",
+        0.6944444444444444
+    ],
+    "samples/BeauRivage-Regular.png": [
+        "HANDWRITING",
+        0.5
+    ],
+    "samples/BubblegumSans-Regular.png": [
+        "DISPLAY",
+        0.8723404255319149
+    ],
+    "samples/YesevaOne-Regular.png": [
+        "DISPLAY",
+        0.7142857142857143
+    ],
+    "samples/Combo-Regular.png": [
+        "DISPLAY",
+        0.7701492537313432
+    ],
+    "samples/PressStart2P-Regular.png": [
+        "DISPLAY",
+        0.75
+    ],
+    "samples/Quattrocento-Regular.png": [
+        "SERIF",
+        0.6954545454545454
+    ],
+    "samples/PassionsConflict-Regular.png": [
+        "HANDWRITING",
+        0.35789473684210527
+    ],
+    "samples/NotoSansGunjalaGondi-Regular.png": [
+        "SANS_SERIF",
+        0.9019292604501608
+    ],
+    "samples/Fuggles-Regular.png": [
+        "HANDWRITING",
+        0.5997001499250375
+    ],
+    "samples/FrancoisOne-Regular.png": [
+        "SANS_SERIF",
+        0.7506666666666667
+    ],
+    "samples/Metamorphous-Regular.png": [
+        "DISPLAY",
+        0.7895424836601307
+    ],
+    "samples/NotoSansTifinagh-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/MsMadi-Regular.png": [
+        "HANDWRITING",
+        0.5234375
+    ],
+    "samples/KonkhmerSleokchher-Regular.png": [
+        "DISPLAY",
+        0.7510259917920656
+    ],
+    "samples/NotoSansManichaean-Regular.png": [
+        "SANS_SERIF",
+        0.7024
+    ],
+    "samples/Sahitya-Regular.png": [
+        "SERIF",
+        0.7095761381475667
+    ],
+    "samples/SigmarOne-Regular.png": [
+        "DISPLAY",
+        0.8550295857988166
+    ],
+    "samples/STIXTwoMath-Regular.png": [
+        "SERIF",
+        0.7199391171993912
+    ],
+    "samples/Neonderthaw-Regular.png": [
+        "HANDWRITING",
+        0.4666666666666667
+    ],
+    "samples/Tapestry-Regular.png": [
+        "HANDWRITING",
+        0.709375
+    ],
+    "samples/NotoSansHanunoo-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/Gurajada-Regular.png": [
+        "SERIF",
+        0.7427385892116183
+    ],
+    "samples/SeaweedScript-Regular.png": [
+        "DISPLAY",
+        0.49673202614379086
+    ],
+    "samples/Trirong-Regular.png": [
+        "SERIF",
+        0.7114285714285714
+    ],
+    "samples/GowunBatang-Regular.png": [
+        "SERIF",
+        0.6967741935483871
+    ],
+    "samples/KoHo-Regular.png": [
+        "SANS_SERIF",
+        0.6714285714285714
+    ],
+    "samples/RaviPrakash-Regular.png": [
+        "DISPLAY",
+        0.7427536231884058
+    ],
+    "samples/Actor-Regular.png": [
+        "SANS_SERIF",
+        0.7375366568914956
+    ],
+    "samples/GFSDidot-Regular.png": [
+        "SERIF",
+        0.6618287373004355
+    ],
+    "samples/SometypeMono-Regular.png": [
+        "MONOSPACE",
+        0.7230769230769231
+    ],
+    "samples/Shanti-Regular.png": [
+        "SANS_SERIF",
+        0.7252124645892352
+    ],
+    "samples/Monoton-Regular.png": [
+        "DISPLAY",
+        0.8695652173913043
+    ],
+    "samples/IBMPlexSansDevanagari-Regular.png": [
+        "SANS_SERIF",
+        0.7392550143266475
+    ],
+    "samples/Bilbo-Regular.png": [
+        "HANDWRITING",
+        0.5769230769230769
+    ],
+    "samples/Quintessential-Regular.png": [
+        "HANDWRITING",
+        0.7098723975822699
+    ],
+    "samples/Poppins-Regular.png": [
+        "SANS_SERIF",
+        0.7851002865329513
+    ],
+    "samples/Mitr-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/EncodeSansCondensed-Regular.png": [
+        "SANS_SERIF",
+        0.7331081081081081
+    ],
+    "samples/StardosStencil-Regular.png": [
+        "DISPLAY",
+        0.6903589021815623
+    ],
+    "samples/JacquesFrancoisShadow-Regular.png": [
+        "DISPLAY",
+        0.6146728354263054
+    ],
+    "samples/Akronim-Regular.png": [
+        "DISPLAY",
+        0.6657534246575343
+    ],
+    "samples/Molengo-Regular.png": [
+        "SANS_SERIF",
+        0.6743350107836089
+    ],
+    "samples/NotoSansDevanagariUI-Regular.png": [
+        "SANS_SERIF",
+        0.8617363344051447
+    ],
+    "samples/Dynalight-Regular.png": [
+        "DISPLAY",
+        0.501734906315059
+    ],
+    "samples/JacquesFrancois-Regular.png": [
+        "SERIF",
+        0.6004098360655737
+    ],
+    "samples/PassionOne-Regular.png": [
+        "DISPLAY",
+        0.7713365539452496
+    ],
+    "samples/LindenHill-Regular.png": [
+        "SERIF",
+        0.5878477306002928
+    ],
+    "samples/NotoSansOldSouthArabian-Regular.png": [
+        "SANS_SERIF",
+        0.6239813736903376
+    ],
+    "samples/PaytoneOne-Regular.png": [
+        "SANS_SERIF",
+        0.7281976744186046
+    ],
+    "samples/FiraMono-Regular.png": [
+        "MONOSPACE",
+        0.7648766328011611
+    ],
+    "samples/Tajawal-Regular.png": [
+        "SANS_SERIF",
+        0.717219589257504
+    ],
+    "samples/Gelasio-Regular.png": [
+        "SERIF",
+        0.6948555320648344
+    ],
+    "samples/Allura-Regular.png": [
+        "HANDWRITING",
+        0.5
+    ],
+    "samples/Kantumruy-Regular.png": [
+        "SANS_SERIF",
+        0.7510259917920656
+    ],
+    "samples/Ranchers-Regular.png": [
+        "DISPLAY",
+        0.7310513447432763
+    ],
+    "samples/Smooch-Regular.png": [
+        "HANDWRITING",
+        0.5859375
+    ],
+    "samples/SlacksideOne-Regular.png": [
+        "HANDWRITING",
+        0.49707602339181284
+    ],
+    "samples/Jua-Regular.png": [
+        "SANS_SERIF",
+        0.6075949367088608
+    ],
+    "samples/NotoSerifBalinese-Regular.png": [
+        "SERIF",
+        0.7507002801120448
+    ],
+    "samples/BeVietnamPro-Regular.png": [
+        "SANS_SERIF",
+        0.7162162162162162
+    ],
+    "samples/Rationale-Regular.png": [
+        "SANS_SERIF",
+        0.7257142857142858
+    ],
+    "samples/BungeeSpice-Regular.png": [
+        "DISPLAY",
+        0.6944444444444444
+    ],
+    "samples/BungeeColor-Regular.png": [
+        "DISPLAY",
+        0.6944444444444444
+    ],
+    "samples/Elsie-Regular.png": [
+        "DISPLAY",
+        0.7861538461538462
+    ],
+    "samples/BellotaText-Regular.png": [
+        "DISPLAY",
+        0.7309941520467836
+    ],
+    "samples/SourceSansPro-Regular.png": [
+        "SANS_SERIF",
+        0.7363636363636363
+    ],
+    "samples/MergeOne-Regular.png": [
+        "SANS_SERIF",
+        0.7260677466863034
+    ],
+    "samples/Gayathri-Regular.png": [
+        "SANS_SERIF",
+        0.7220216606498195
+    ],
+    "samples/NotoSansSignWriting-Regular.png": [
+        "SANS_SERIF",
+        0.7142857142857143
+    ],
+    "samples/Shojumaru-Regular.png": [
+        "DISPLAY",
+        0.7861799217731421
+    ],
+    "samples/NotoSansMeroitic-Regular.png": [
+        "SANS_SERIF",
+        0.788235294117647
+    ],
+    "samples/NotoSansMiao-Regular.png": [
+        "SANS_SERIF",
+        0.47759103641456585
+    ],
+    "samples/NotoSansModi-Regular.png": [
+        "SANS_SERIF",
+        0.8617363344051447
+    ],
+    "samples/Miniver-Regular.png": [
+        "DISPLAY",
+        0.6406649616368286
+    ],
+    "samples/Lancelot-Regular.png": [
+        "DISPLAY",
+        0.6756302521008404
+    ],
+    "samples/ContrailOne-Regular.png": [
+        "DISPLAY",
+        0.6057007125890737
+    ],
+    "samples/Average-Regular.png": [
+        "SERIF",
+        0.6599131693198264
+    ],
+    "samples/Girassol-Regular.png": [
+        "DISPLAY",
+        0.72
+    ],
+    "samples/Barlow-Regular.png": [
+        "SANS_SERIF",
+        0.7228571428571429
+    ],
+    "samples/NotoSansMandaic-Regular.png": [
+        "SANS_SERIF",
+        0.7723342939481268
+    ],
+    "samples/BigelowRules-Regular.png": [
+        "DISPLAY",
+        0.8030104712041884
+    ],
+    "samples/Baskervville-Regular.png": [
+        "SERIF",
+        0.6140845070422535
+    ],
+    "samples/Mate-Regular.png": [
+        "SERIF",
+        0.6514285714285715
+    ],
+    "samples/Maitree-Regular.png": [
+        "SERIF",
+        0.7035971223021583
+    ],
+    "samples/Dhurjati-Regular.png": [
+        "SANS_SERIF",
+        0.7494033412887828
+    ],
+    "samples/PT_Serif-Caption-Web-Regular.png": [
+        "SERIF",
+        0.75
+    ],
+    "samples/Imprima-Regular.png": [
+        "SANS_SERIF",
+        0.7352941176470589
+    ],
+    "samples/CutiveMono-Regular.png": [
+        "MONOSPACE",
+        0.6609735269000854
+    ],
+    "samples/SourceSerifPro-Regular.png": [
+        "SERIF",
+        0.7089552238805971
+    ],
+    "samples/Sofia-Regular.png": [
+        "HANDWRITING",
+        0.63
+    ],
+    "samples/Arvo-Regular.png": [
+        "SERIF",
+        0.683377308707124
+    ],
+    "samples/NotoSansIndicSiyaqNumbers-Regular.png": [
+        "SANS_SERIF",
+        0.5736514522821576
+    ],
+    "samples/OriginalSurfer-Regular.png": [
+        "DISPLAY",
+        0.6593186372745491
+    ],
+    "samples/OleoScript-Regular.png": [
+        "DISPLAY",
+        0.6239436619718309
+    ],
+    "samples/NerkoOne-Regular.png": [
+        "HANDWRITING",
+        0.726962457337884
+    ],
+    "samples/Benne-Regular.png": [
+        "SERIF",
+        0.616793893129771
+    ],
+    "samples/SyneTactile-Regular.png": [
+        "DISPLAY",
+        0.7692307692307693
+    ],
+    "samples/StalinistOne-Regular.png": [
+        "DISPLAY",
+        0.7571428571428571
+    ],
+    "samples/Warnes-Regular.png": [
+        "DISPLAY",
+        0.7605633802816901
+    ],
+    "samples/Timmana-Regular.png": [
+        "SANS_SERIF",
+        0.7797356828193832
+    ],
+    "samples/SendFlowers-Regular.png": [
+        "HANDWRITING",
+        0.5563380281690141
+    ],
+    "samples/ZenKurenaido-Regular.png": [
+        "SANS_SERIF",
+        0.58
+    ],
+    "samples/PrincessSofia-Regular.png": [
+        "HANDWRITING",
+        0.7808857808857809
+    ],
+    "samples/InriaSerif-Regular.png": [
+        "SERIF",
+        0.7279411764705882
+    ],
+    "samples/PT_Sans-Narrow-Web-Regular.png": [
+        "SANS_SERIF",
+        0.7142857142857143
+    ],
+    "samples/Ramaraja-Regular.png": [
+        "SERIF",
+        0.6674259681093394
+    ],
+    "samples/SonsieOne-Regular.png": [
+        "DISPLAY",
+        0.5375494071146245
+    ],
+    "samples/Farsan-Regular.png": [
+        "DISPLAY",
+        0.6641566265060241
+    ],
+    "samples/NotoSansDeseret-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/Whisper-Regular.png": [
+        "HANDWRITING",
+        0.4838709677419355
+    ],
+    "samples/Petemoss-Regular.png": [
+        "HANDWRITING",
+        0.6354166666666666
+    ],
+    "samples/Milonga-Regular.png": [
+        "DISPLAY",
+        0.5661310259579728
+    ],
+    "samples/Poly-Regular.png": [
+        "SERIF",
+        0.6825396825396826
+    ],
+    "samples/NotoSansWancho-Regular.png": [
+        "SANS_SERIF",
+        0.7549295774647887
+    ],
+    "samples/AmaticSC-Regular.png": [
+        "HANDWRITING",
+        0.8740053050397878
+    ],
+    "samples/LibreBarcode128-Regular.png": [
+        "DISPLAY",
+        0.6779661016949152
+    ],
+    "samples/Sanchez-Regular.png": [
+        "SERIF",
+        0.6852367688022284
+    ],
+    "samples/BerkshireSwash-Regular.png": [
+        "HANDWRITING",
+        0.5586652314316469
+    ],
+    "samples/SortsMillGoudy-Regular.png": [
+        "SERIF",
+        0.6199158485273493
+    ],
+    "samples/ZenAntiqueSoft-Regular.png": [
+        "SERIF",
+        0.6515151515151515
+    ],
+    "samples/ReggaeOne-Regular.png": [
+        "DISPLAY",
+        0.7141025641025641
+    ],
+    "samples/NotoSansTakri-Regular.png": [
+        "SANS_SERIF",
+        0.92
+    ],
+    "samples/SueEllenFrancisco-Regular.png": [
+        "HANDWRITING",
+        0.4046082949308756
+    ],
+    "samples/Amiri-Regular.png": [
+        "SERIF",
+        0.6702786377708978
+    ],
+    "samples/BonheurRoyale-Regular.png": [
+        "HANDWRITING",
+        0.45161290322580644
+    ],
+    "samples/Share-Regular.png": [
+        "DISPLAY",
+        0.7072135785007072
+    ],
+    "samples/Iceland-Regular.png": [
+        "DISPLAY",
+        0.7142857142857143
+    ],
+    "samples/BlakaInk-Regular.png": [
+        "DISPLAY",
+        0.7507507507507507
+    ],
+    "samples/NotoSansKhojki-Regular.png": [
+        "SANS_SERIF",
+        0.7633053221288515
+    ],
+    "samples/SpectralSC-Regular.png": [
+        "SERIF",
+        0.6818181818181818
+    ],
+    "samples/Bahiana-Regular.png": [
+        "DISPLAY",
+        0.6929577464788732
+    ],
+    "samples/SirinStencil-Regular.png": [
+        "DISPLAY",
+        0.741391426563598
+    ],
+    "samples/NotoSansOldItalic-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/NotoSansBrahmi-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ],
+    "samples/Fascinate-Regular.png": [
+        "DISPLAY",
+        0.713091922005571
+    ],
+    "samples/DonegalOne-Regular.png": [
+        "SERIF",
+        0.6666666666666666
+    ],
+    "samples/CarroisGothic-Regular.png": [
+        "SANS_SERIF",
+        0.7777777777777778
+    ],
+    "samples/NoticiaText-Regular.png": [
+        "SERIF",
+        0.8019216555801921
+    ],
+    "samples/NotoSansYi-Regular.png": [
+        "SANS_SERIF",
+        0.7507002801120448
+    ]
+}
