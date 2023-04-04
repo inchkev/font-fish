@@ -73,7 +73,7 @@ var loader = new THREE.TextureLoader();
 var file_loader = new THREE.FileLoader();
 // loader.load('https://s3.amazonaws.com/duhaime/blog/tsne-webgl/data/image_tsne_projections.json', function(data) {
 if (true) {
-file_loader.load('font-coordinates-v3b.json', function( obj ) {
+file_loader.load('font-coordinates-v3c.json', function( obj ) {
   imagePositions = JSON.parse(obj);
   let fonts = Object.keys(imagePositions);
   
