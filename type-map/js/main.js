@@ -86,14 +86,14 @@ file_loader.load('font-coordinates-v3c.json', function( obj ) {
     // create a plane geometry for the image with a width of 10
     // and a height that preserves the image's aspect ratio
     //var geometry = new THREE.PlaneGeometry(10, 10*0.46);
-    var geometry = new THREE.PlaneGeometry(3.75, 3.75*0.46);
+    var geometry = new THREE.PlaneGeometry(4, 4*0.46);
 
     // combine our image geometry and material into a mesh
     var mesh = new THREE.Mesh(geometry, material);
 
     // set the position of the image mesh in the x,y,z dimensions
     var [x, y] = imagePositions[fonts[i]];
-    mesh.position.set(x, y, (i % 5)*1.7);
+    mesh.position.set(x, y, (i % 5)*1.0);
 
     // add the image to the scene
     scene.add(mesh);
