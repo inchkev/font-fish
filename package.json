@@ -1,0 +1,28 @@
+{
+  "name": "fontfish",
+  "version": "1.0.0",
+  "description": "A browser tool for spatial font discovery and exploration",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild js/index.js --bundle --outfile=dist/bundle.js --minify --sourcemap",
+    "start": "esbuild js/index.js --bundle --outfile=dist/bundle.js --minify --sourcemap",
+    "serve": "serve -s dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inchkev/font-fish.git"
+  },
+  "keywords": [
+    "font"
+  ],
+  "author": "Kevin Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inchkev/font-fish/issues"
+  },
+  "homepage": "https://github.com/inchkev/font-fish#readme",
+  "dependencies": {
+    "esbuild": "0.17.18",
+    "three": "^0.151.3"
+  }
+}

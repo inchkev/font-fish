@@ -3,8 +3,11 @@
 *.log
 *.js.meta
 *.swp
-node_modules/
-build/
+node_modules
+build
+npm-debug.log
+.env
+.map
 
 # Swap
 [._]*.s[a-v][a-z]
