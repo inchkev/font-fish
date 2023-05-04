@@ -15,12 +15,53 @@
 
   <link rel="stylesheet" href="style.css">
 </head>
-  
-<body>
-  <main>
 
+<body>
+  <header>
+    <div class="header-container">
+      <p>font.fish</p>
+      <div class="view-selector">
+        <div class="view-selector__option" data-value="umap">UMAP</div>
+        <div class="view-selector__option selected" data-value="tsne">t-SNE</div>
+        <div class="view-selector__option" data-value="lap">Grid (t-SNE)</div>
+      </div>
+      <p><a href="https://github.com/inchkev/font-fish">About</a></p>
+    </div>
+  </header>
+
+  <main>
+    <div id="info-container" style="display: none;">
+      <div id="info">
+        <h2></h2>
+        <div class="font-info">
+          <p class="style"></p>
+        </div>
+
+        <hr>
+
+        <div class="font-sample-sentence">
+          <p>Whereas disregard and contempt for human rights have resulted</p>
+          <p>The quick brown fox jumps over the lazy dog. Sphinx of black quartz, judge my vow.</p>
+        </div>
+
+        <hr>
+
+        <div class="font-sample-alphabet">
+          <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+          <p>abcdefghijklmnopqrstuvwxyz</p>
+          <p>1234567890!@#$%^&amp;*()</p>
+        </div>
+
+        <hr>
+
+        <div class="font-custom-input">
+          <!-- <input type="textarea" placeholder="Type here to preview text"> -->
+          <textarea placeholder="Type here to preview text"></textarea>
+        </div>
+      </div>
+    </div>
   </main>
-    
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js" type="text/javascript"></script>
   <script src="bundle.js" type="module"></script>
 </body>
