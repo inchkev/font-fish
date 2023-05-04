@@ -24,6 +24,9 @@
   "homepage": "https://github.com/inchkev/font-fish#readme",
   "dependencies": {
     "esbuild": "0.17.18",
+    "fontfaceobserver": "^2.3.0",
+    "gsap": "^3.11.5",
+    "stats.js": "^0.17.0",
     "three": "^0.151.3"
   }
 }

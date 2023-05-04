@@ -8,6 +8,7 @@ build
 npm-debug.log
 .env
 .map
+__pycache__
 
 # Swap
 [._]*.s[a-v][a-z]
