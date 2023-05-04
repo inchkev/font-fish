@@ -52,17 +52,19 @@ a:visited {
   color: black;
 }
 
-canvas {
-}
-
 #info-container {
   position: absolute;
   box-sizing: border-box;
   height: calc(100% - 3em);
-  width: 30%;
+  width: 25em;
   top: 3em;
   right: 0;
   padding: 1em;
+}
+@media only screen and (max-width: 1024px) {
+  #info-container {
+    width: 20em;
+  }
 }
 
 #info {
@@ -76,10 +78,33 @@ canvas {
   overflow-y: scroll;
 }
 
+@media only screen and (max-width: 768px) {
+  body, html {
+    font-size: 14px;
+  }
+  #info-container {
+    width: 100%;
+    height: 40%;
+    top: auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 0em;
+  }
+  #info {
+    border: none;
+    border-top: 1.5px solid #AEAEAE;
+  }
+}
+@media only screen and (max-width: 640px) {
+  #info-container {
+    height: 50%;
+  }
+}
+
 hr {
   width: 100%;
-  border-top: 1.5px solid #AEAEAE;
-  margin: 0;
+  border-top: 1.5px solid #cdcccc;
   padding: 0;
   margin-top: 2em;
   margin-bottom: 2em;
