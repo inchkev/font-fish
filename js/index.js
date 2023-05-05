@@ -64,8 +64,27 @@ function view_tsne() {
   });
 }
 
-function view_lap() {
-  file_loader.load('font-coordinates-v4l.json', function( obj ) {
+function view_umap_grid() {
+  file_loader.load('font-coordinates-v4lu.json', function( obj ) {
+    const imagePositions = JSON.parse(obj);
+    let fonts = Object.keys(imagePositions);
+
+    for (let i = 0; i < fonts.length; i++) {
+      var [x, y] = imagePositions[fonts[i]];
+
+      gsap.to( all_meshes[i].position, {
+        duration: 1.5,
+        ease: "expo.out",
+        x: (x-0.5)*200,
+        y: (y-0.5)*80,
+        z: 0,
+      } );
+    }
+  });
+}
+
+function view_tsne_grid() {
+  file_loader.load('font-coordinates-v4lt.json', function( obj ) {
     const imagePositions = JSON.parse(obj);
     let fonts = Object.keys(imagePositions);
 
@@ -97,11 +116,14 @@ $(document).ready(function() {
       case 'umap':
         view_umap();
         break;
+      case 'umap-grid':
+        view_umap_grid();
+        break;
       case 'tsne':
         view_tsne();
         break;
-      case 'lap':
-        view_lap();
+      case 'tsne-grid':
+        view_tsne_grid();
         break;
       default:
         break;

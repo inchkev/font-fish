@@ -1,8 +1,6 @@
 import sys
 import json
 import numpy as np
-from sklearn.decomposition import PCA
-from sklearn.manifold import TSNE
 import matplotlib.pyplot as plt
 from scipy.spatial.distance import cdist
 import lap
@@ -45,12 +43,12 @@ min_cost, row_assignments, col_assignments = lap.lapjv(np.copy(cost), extend_cos
 pos = grid[col_assignments]
 print(pos)
 
-# Create a dictionary to store the t-SNE results
+# Create a dictionary to store the LAP results
 lap_dict = {}
 for i, img_name in enumerate(img_names):
     lap_dict[img_name] = pos[i].tolist()
 
-# Save t-SNE results to JSON file
+# Save LAP results to JSON file
 with open(output_path, "w") as f:
     json.dump(lap_dict, f, indent=4)
 
