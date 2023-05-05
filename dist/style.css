@@ -21,6 +21,9 @@ header {
   background-color: #f6f6f5;
 }
 
+a {
+  color: inherit;
+}
 a:visited {
   color: inherit;
 }
@@ -76,6 +79,11 @@ a:visited {
   padding: 1em;
   z-index: 1;
   overflow-y: scroll;
+}
+
+#info h2 {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
 }
 
 @media only screen and (max-width: 768px) {

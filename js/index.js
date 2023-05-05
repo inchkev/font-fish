@@ -76,7 +76,7 @@ function view_lap() {
         duration: 1.5,
         ease: "expo.out",
         x: (x-0.5)*200,
-        y: (y-0.5)*85,
+        y: (y-0.5)*80,
         z: 0,
       } );
     }
@@ -302,10 +302,17 @@ function update_font_info(fontString, callback) {
   return font.load(weight).then(function() {
     console.log(`loaded ${fontString}`);
 
-    $('#info h2').text(name);
+    const gfontLink = $('<a>')
+      .attr('href', `https://fonts.google.com/specimen/${name.replace(' ', '+')}`)
+      .attr('target', '_blank')
+      .html(name);
+    $('#info h2').html(gfontLink);
+
+
     // $('#info-container h2').css('font-family', name);
     $('.font-info .style').text(`${weightMap[weight]} ${weight}`);
-    $('.font-sample-sentence, .font-sample-alphabet, .font-custom-input').css('font-family', name).css('font-weight', weight);
+    $('.font-sample-sentence, .font-sample-alphabet, .font-custom-input')
+      .css('font-family', name).css('font-weight', weight);
 
     if (callback) callback();
   });
