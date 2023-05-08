@@ -4,8 +4,6 @@ A browser based tool for exploring thousands of fonts.
 
 Try it out: [font.fish](https://font.fish/)
 
----
-
 ## Useful links
 
 ### General
