@@ -1,8 +1,6 @@
 # font.fish
 
-A browser based tool for exploring thousands of fonts.
-
-Try it out: [font.fish](https://font.fish/)
+A browser based tool for exploring thousands of fonts. Try it out at [font.fish](https://font.fish/)
 
 <p align="center"><img width="80%" alt="Screenshot of font.fish" src="https://user-images.githubusercontent.com/16364865/236711588-0aa75f9b-7fc7-4e90-bffa-2a40667abf22.png"></p>
 
