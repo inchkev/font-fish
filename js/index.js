@@ -1,13 +1,13 @@
 import * as THREE from 'three';
 import { TrackballControls } from 'three/addons/controls/TrackballControls.js';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+// import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import gsap from "gsap";
 import Stats from 'three/examples/jsm/libs/stats.module.js';
 import FontFaceObserver from "fontfaceobserver"
 
 
 var load_once = true;
-var all_meshes = [];
+var fontMeshes = [];
 
 let container, stats;
 let camera, scene, raycaster, renderer, controls;
@@ -22,6 +22,8 @@ const radius = 100;
 
 const mesh_map = new Map();
 
+const DEBUG = false;
+
 // store image position information
 // let imagePositions;
 
@@ -34,7 +36,7 @@ function view_umap() {
     for (let i = 0; i < fonts.length; i++) {
       var [x, y] = imagePositions[fonts[i]];
 
-      gsap.to( all_meshes[i].position, {
+      gsap.to( fontMeshes[i].position, {
         duration: 1.5,
         ease: "expo.out",
         x: (x-14)*17,
@@ -53,7 +55,7 @@ function view_tsne() {
     for (let i = 0; i < fonts.length; i++) {
       var [x, y] = imagePositions[fonts[i]];
 
-      gsap.to( all_meshes[i].position, {
+      gsap.to( fontMeshes[i].position, {
         duration: 1.5,
         ease: "expo.out",
         x: x*1.6,
@@ -72,7 +74,7 @@ function view_umap_grid() {
     for (let i = 0; i < fonts.length; i++) {
       var [x, y] = imagePositions[fonts[i]];
 
-      gsap.to( all_meshes[i].position, {
+      gsap.to( fontMeshes[i].position, {
         duration: 1.5,
         ease: "expo.out",
         x: (x-0.5)*200,
@@ -91,7 +93,7 @@ function view_tsne_grid() {
     for (let i = 0; i < fonts.length; i++) {
       var [x, y] = imagePositions[fonts[i]];
 
-      gsap.to( all_meshes[i].position, {
+      gsap.to( fontMeshes[i].position, {
         duration: 1.5,
         ease: "expo.out",
         x: (x-0.5)*200,
@@ -143,10 +145,7 @@ function init() {
   document.body.appendChild( container );
 
   camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 1, 10000 );
-  //camera.position.z = 5500;
-  //camera.position.y = -100;
   camera.position.z = 75;
-  //camera.position.y = -100;
 
 
   scene = new THREE.Scene();
@@ -165,17 +164,35 @@ function init() {
   controls = new TrackballControls(camera, renderer.domElement);
   //var controls = new OrbitControls(camera, renderer.domElement);
   controls.noRotate = true;
-  controls.keys = ['KeyA', 'KeyS', 'KeyD'];
+  controls.mouseButtons = {
+    LEFT: THREE.MOUSE.PAN,
+    MIDDLE: THREE.MOUSE.ZOOM,
+    RIGHT: THREE.MOUSE.ROTATE,
+  };
+  controls.panSpeed = 1.5;
+  controls.zoomSpeed = 2.0;
+  controls.staticMoving = true;
+
+  // DEBUG: print camera location
+  if (DEBUG) {
+    controls.addEventListener('change', function() {
+      console.log(camera.position);
+    });
+  }
+
+  // automatically set screen properties
+  controls.handleResize();
 
   raycaster = new THREE.Raycaster();
   texture_loader = new THREE.TextureLoader();
   file_loader = new THREE.FileLoader();
-  init_tsne();
 
-  stats = new Stats();
-  // container.appendChild( stats.dom );
+  initScene();
 
-  //
+  if (DEBUG) {
+    stats = new Stats();
+    container.appendChild( stats.dom );
+  }
 
   document.addEventListener('mousemove', onPointerMove);
   document.addEventListener('dblclick', onDblClick);
@@ -188,14 +205,16 @@ function animate() {
   render();
 
   controls.update();
-  stats.update();
+  if (DEBUG) {
+    stats.update();
+  }
 }
 
 function render() {
   // find intersections
   raycaster.setFromCamera( pointer, camera );
 
-  const intersects = raycaster.intersectObjects( scene.children, false );
+  const intersects = raycaster.intersectObjects( fontMeshes, false );
   if ( intersects.length > 0 ) {
 
     if ( INTERSECTED != intersects[0].object ) {
@@ -218,10 +237,27 @@ function render() {
   }
 
   renderer.render( scene, camera );
+  // console.log(renderer.info.render.calls);
 }
 
 
-function init_tsne() {
+function initScene() {
+  initTsne();
+
+  if (DEBUG) {
+    initGrid();
+  }
+}
+
+function initGrid() {
+  const size = 500;
+  const divisions = 50;
+  const gridHelper = new THREE.GridHelper( size, divisions, 0x5aa60c, 0xafeb73 );
+  gridHelper.rotation.x = Math.PI / 2;
+  scene.add( gridHelper );
+}
+
+function initTsne() {
   file_loader.load('font-coordinates-v4t.json', function( obj ) {
     const imagePositions = JSON.parse(obj);
     let fonts = Object.keys(imagePositions);
@@ -240,7 +276,7 @@ function init_tsne() {
       material.transparent = true;
       var mesh = new THREE.Mesh(geometry, material);
       scene.add(mesh);
-      all_meshes.push(mesh);
+      fontMeshes.push(mesh);
 
       mesh_map.set(mesh.uuid, fonts[i]);
     }
