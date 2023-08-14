@@ -1,9 +1,10 @@
 import * as THREE from 'three';
 import { TrackballControls } from 'three/addons/controls/TrackballControls.js';
-// import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import gsap from "gsap";
 import Stats from 'three/examples/jsm/libs/stats.module.js';
 import FontFaceObserver from "fontfaceobserver"
+import { Text } from 'troika-three-text';
 
 
 var load_once = true;
@@ -33,7 +34,7 @@ function view_umap() {
     const imagePositions = JSON.parse(obj);
     let fonts = Object.keys(imagePositions);
 
-    for (let i = 0; i < fonts.length; i++) {
+    for (let i = 0; i < Math.min(fonts.length, fontMeshes.length); i++) {
       var [x, y] = imagePositions[fonts[i]];
 
       gsap.to( fontMeshes[i].position, {
@@ -52,7 +53,7 @@ function view_tsne() {
     const imagePositions = JSON.parse(obj);
     let fonts = Object.keys(imagePositions);
 
-    for (let i = 0; i < fonts.length; i++) {
+    for (let i = 0; i < Math.min(fonts.length, fontMeshes.length); i++) {
       var [x, y] = imagePositions[fonts[i]];
 
       gsap.to( fontMeshes[i].position, {
@@ -71,7 +72,7 @@ function view_umap_grid() {
     const imagePositions = JSON.parse(obj);
     let fonts = Object.keys(imagePositions);
 
-    for (let i = 0; i < fonts.length; i++) {
+    for (let i = 0; i < Math.min(fonts.length, fontMeshes.length); i++) {
       var [x, y] = imagePositions[fonts[i]];
 
       gsap.to( fontMeshes[i].position, {
@@ -90,7 +91,7 @@ function view_tsne_grid() {
     const imagePositions = JSON.parse(obj);
     let fonts = Object.keys(imagePositions);
 
-    for (let i = 0; i < fonts.length; i++) {
+    for (let i = 0; i < Math.min(fonts.length, fontMeshes.length); i++) {
       var [x, y] = imagePositions[fonts[i]];
 
       gsap.to( fontMeshes[i].position, {
@@ -141,8 +142,9 @@ init();
 animate();
 
 function init() {
-  container = document.createElement( 'div' );
+  container = document.getElementById( 'three' );
   document.body.appendChild( container );
+  container.classList.add('three__move');
 
   camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 1, 10000 );
   camera.position.z = 75;
@@ -161,27 +163,26 @@ function init() {
   renderer.setSize( window.innerWidth, window.innerHeight );
   container.appendChild( renderer.domElement );
 
-  controls = new TrackballControls(camera, renderer.domElement);
-  //var controls = new OrbitControls(camera, renderer.domElement);
-  controls.noRotate = true;
+  // controls = new TrackballControls(camera, renderer.domElement);
+  controls = new OrbitControls(camera, renderer.domElement);
+  controls.enableRotate = false;
+  controls.enableDamping = false;
   controls.mouseButtons = {
     LEFT: THREE.MOUSE.PAN,
     MIDDLE: THREE.MOUSE.ZOOM,
     RIGHT: THREE.MOUSE.ROTATE,
   };
-  controls.panSpeed = 1.5;
   controls.zoomSpeed = 2.0;
-  controls.staticMoving = true;
 
   // DEBUG: print camera location
-  if (DEBUG) {
-    controls.addEventListener('change', function() {
-      console.log(camera.position);
-    });
-  }
+  // if (DEBUG) {
+  //   controls.addEventListener('change', function() {
+  //     console.log(camera.position);
+  //   });
+  // }
 
   // automatically set screen properties
-  controls.handleResize();
+  controls.update();
 
   raycaster = new THREE.Raycaster();
   texture_loader = new THREE.TextureLoader();
@@ -204,7 +205,6 @@ function animate() {
 
   render();
 
-  controls.update();
   if (DEBUG) {
     stats.update();
   }
@@ -222,6 +222,10 @@ function render() {
         INTERSECTED.material.emissive.setHex( INTERSECTED.currentHex );
       }
 
+      // set cursor to intersected
+      container.classList.remove('three__move');
+      container.classList.add('three__intersected');
+
       INTERSECTED = intersects[0].object;
       INTERSECTED.currentHex = INTERSECTED.material.emissive.getHex();
       INTERSECTED.material.emissive.setHex( 0x999999 );
@@ -232,12 +236,12 @@ function render() {
     if ( INTERSECTED ) {
       INTERSECTED.material.emissive.setHex( INTERSECTED.currentHex );
     }
+    container.classList.remove('three__intersected');
+    container.classList.add('three__move');
     INTERSECTED = null;
-
   }
 
   renderer.render( scene, camera );
-  // console.log(renderer.info.render.calls);
 }
 
 
@@ -246,6 +250,39 @@ function initScene() {
 
   if (DEBUG) {
     initGrid();
+  }
+}
+
+function getFontSubset(font, weight, text, posx, posy) {
+  let apiUrl = [];
+  apiUrl.push('https://font-fish-a692faa6de52.herokuapp.com/font?family=');
+  apiUrl.push(font);
+  apiUrl.push('&weight=');
+  apiUrl.push(weight);
+  apiUrl.push('&text=');
+  apiUrl.push(text);
+  let url = apiUrl.join('');
+
+  try {
+    // const response = await fetch(url, {
+    //   method: 'GET',
+    //   mode: 'cors'
+    // });
+    // const result = await response.blob();
+
+    const myText = new Text();
+    scene.add(myText);
+    myText.text = text;
+    myText.font = url;
+    myText.color = 0x000000;
+    myText.fontSize = 1.5;
+    myText.position.x = posx;
+    myText.position.y = posy;
+    myText.sync();
+    return myText;
+
+  } catch (error) {
+    console.error('Error: ', error);
   }
 }
 
@@ -261,9 +298,18 @@ function initTsne() {
   file_loader.load('font-coordinates-v4t.json', function( obj ) {
     const imagePositions = JSON.parse(obj);
     let fonts = Object.keys(imagePositions);
+    console.log(fonts);
 
     for (let i = 0; i < fonts.length; i++) {
+    // for (let i = 0; i < 100; i++) {
       // Load an image file into a custom material
+      // let slice = fonts[i].split(' ');
+      // let weight = slice.pop();
+      // let font = slice.join('');
+      // console.log(font);
+      // console.log(weight);
+      // getFontSubset('Source Sans Pro', '400', 'Hello World');
+      // let mesh = getFontSubset(font, weight, 'Handgloves', 0, 0);
       var material = new THREE.MeshLambertMaterial({
         map: texture_loader.load("previews/" + fonts[i] + ".png")
       });
@@ -279,6 +325,7 @@ function initTsne() {
       fontMeshes.push(mesh);
 
       mesh_map.set(mesh.uuid, fonts[i]);
+      // mesh_map.set(mesh.geometry.uuid, fonts[i]);
     }
     load_once = false;
 
@@ -291,7 +338,7 @@ function onWindowResize() {
   camera.updateProjectionMatrix();
 
   renderer.setSize( window.innerWidth, window.innerHeight );
-  controls.handleResize();
+  controls.update();
 };
 
 function onPointerMove( event ) {

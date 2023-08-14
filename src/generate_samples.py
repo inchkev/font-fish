@@ -51,8 +51,6 @@ def generate_font_sample(dir_path: str, font: dict, dry_run: bool = False) -> No
     # font_name = f"{font['fullName']}"
     font_name = f"{font['name']} {int(font['weight'])}"
     path = dir_path + "/" + font["filename"]
-    # print(font_name)
-    # return
 
     print("Generating preview for: " + font_name)
     if dry_run:
@@ -115,7 +113,7 @@ if __name__ == "__main__":
                             continue
 
                         for variant in font_info["fonts"]:
-                            generate_font_sample(entry.path, variant, dry_run=False)
+                            generate_font_sample(entry.path, variant, dry_run=True)
 
                     except text_format.ParseError as error:
                         print(error)

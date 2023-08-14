@@ -149,3 +149,17 @@ textarea {
   height: 10em;
   min-height: 1em;
 }
+
+#three {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.three__move {
+  cursor: move;
+}
+.three__intersected {
+  cursor: pointer;
+}

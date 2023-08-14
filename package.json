@@ -6,6 +6,7 @@
   "scripts": {
     "build": "esbuild js/index.js --bundle --outfile=dist/bundle.js --minify",
     "dev": "esbuild js/index.js --bundle --outfile=dist/bundle.js --minify --sourcemap",
+    "generate-paths": "node fonts/generate-paths.js",
     "serve": "serve -s dist/",
     "deploy": "git push origin `git subtree split --prefix dist main`:gh-pages --force"
   },
@@ -25,8 +26,13 @@
   "dependencies": {
     "esbuild": "0.17.18",
     "fontfaceobserver": "^2.3.0",
+    "fontkit": "^2.0.2",
     "gsap": "^3.11.5",
     "stats.js": "^0.17.0",
-    "three": "^0.151.3"
+    "three": "^0.151.3",
+    "troika-three-text": "^0.48.0-unicode.3"
+  },
+  "devDependencies": {
+    "opentype.js": "^1.3.4"
   }
 }

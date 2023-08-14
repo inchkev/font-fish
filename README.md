@@ -18,6 +18,12 @@ A browser based tool for exploring thousands of fonts. Try it out at [font.fish]
 * https://stackoverflow.com/questions/64616845/how-do-i-know-the-actual-letter-size-of-a-truetype-font
 * https://fonttools.readthedocs.io/en/latest/ttLib/index.html
 
+### More font stuff
+* https://fonttools.readthedocs.io/en/latest/subset/index.html
+* https://github.com/opentypejs/opentype.js
+* https://github.com/evanw/theta
+* https://wdobbie.com/post/gpu-text-rendering-with-vector-textures/
+
 ### t-SNE
 * https://lvdmaaten.github.io/tsne/
 * https://distill.pub/2016/misread-tsne/
