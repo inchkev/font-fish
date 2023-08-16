@@ -7,6 +7,9 @@
 
 var opentype = require('opentype.js');
 var fs = require('fs');
+var path = require('path');
+var zlib = require('zlib');
+var pako = require('pako');
 
 var byteArray = new Uint8Array(4);
 var floatArray = new Float32Array(byteArray.buffer);
@@ -97,60 +100,108 @@ function range(start, end) {
 }
 
 function process(options) {
-  var glyphs = [];
-  var ascender = 0;
-  var descender = 0;
+  var glyphs = {};
+  var fontNames = [];
   var units = options.unitsPerEm;
 
-  options.inputFonts.forEach(function (input) {
+  const codepoints = options.unicodes.map( ([start, end]) => range(start, end)).flat();
+  for (var i = 0; i < codepoints.length; i++) {
+    glyphs[codepoints[i]] = [];
+  }
+
+  // for (let i = 0; i < options.inputFonts.length; i++) {
+  for (const input of options.inputFonts) {
     const buffer = new Uint8Array(fs.readFileSync(input)).buffer;
     const font = opentype.parse(buffer);
-    // console.log(font);
+    fontNames.push(path.basename(input, '.ttf'));
 
-    ascender += font.ascender / font.unitsPerEm * units;
-    descender += font.descender / font.unitsPerEm * units;
+    console.log(path.basename(input, '.ttf'));
+    var pathsize = 0;
 
-    const codepoints = options.unicodes.map( ([start, end]) => range(start, end)).flat();
-    for (var i = 0; i < codepoints.length; i++) {
+    for (let i = 0; i < codepoints.length; i++) {
       const char = String.fromCharCode(codepoints[i]);
       const glyph = font.charToGlyph(char);
       const path = glyph.getPath(0, 0, 1); // x, y, font size in pixels
-      if (codepoints[i] != glyph.unicode && glyph.unicode !== void 0) {
-        throw new Error(`Font ${input} is missing character ${char}`);
-      }
-      console.log(path);
-      glyphs.push({
-        codepoint: codepoints[i],
+      // if (codepoints[i] != glyph.unicode && glyph.unicode !== void 0) {
+      //   console.log(glyph.unicode);
+      //   throw new Error(`Font ${input} is missing character ${char}`);
+      // }
+      const compiledPath = compilePathCommands(path.commands, font.unitsPerEm);
+      const pathLength = compiledPath.length;
+      pathsize += pathLength;
+      glyphs[codepoints[i]].push({
+        // codepoint: codepoints[i],
         advanceWidth: glyph.advanceWidth / font.unitsPerEm,
+        ascender: font.ascender / font.unitsPerEm * units,
+        descender: font.descender / font.unitsPerEm * units,
         path: compilePathCommands(path.commands, font.unitsPerEm),
       });
-      // console.log(char);
-      // console.log(glyph.advanceWidth);
-      // console.log();
     }
-  });
+    console.log(pathsize);
+  }
 
+  // generate compact bin for each codepoint
+  // for (let i = 0; i < codepoints.length; i++) {
+  for (const codepoint of codepoints) {
+    var bytes = [];
+    var pathOffset = 4 + 12 * glyphs[codepoint].length;
+    // 12 = 4 shorts (x2) and 1 int (x4)
+    // should be equal to options.inputFonts.length;
 
-  // var bytes = [];
-  // var buffer = Buffer.from(bytes);
-  // fs.writeFileSync(options.output, buffer);
+    // units per em
+    shortToBytes(units, bytes);
+    // number of fonts
+    shortToBytes(options.inputFonts.length, bytes);
+
+    for (let i = 0; i < glyphs[codepoint].length; i++) {
+      var glyph = glyphs[codepoint][i];
+      shortToBytes(Math.round(glyph.advanceWidth * units), bytes);
+      shortToBytes(glyph.ascender, bytes);
+      shortToBytes(glyph.descender, bytes);
+      intToBytes(pathOffset, bytes);
+      shortToBytes(glyph.path.length, bytes);
+
+      pathOffset += glyph.path.length;
+    }
+
+    for (let i = 0; i < glyphs[codepoint].length; i++) {
+      bytes.push.apply(bytes, glyphs[codepoint][i].path);
+    }
+
+    var buffer = Buffer.from(bytes);
+    zlib.gzip(buffer, (err, result) => {
+      if (err) throw err;
+      fs.writeFileSync(options.outputDir + codepoint.toString().padStart(4, '0') + '.bin.gz', result);
+    });
+  }
+
+  // TODO: save font index:order map
+  ws = fs.createWriteStream(options.outputDir + 'names.txt');
+  fontNames.forEach(name => ws.write(name + '\n'));
+  ws.end();
 }
 
 
 function main() {
+  const fontDirectory = __dirname + '/../src/all-ttf/';
+  const fontFiles = fs.readdirSync(fontDirectory);
+  var fontPaths = fontFiles.map(file => fontDirectory + file);
+
+  const badFonts = [
+    "Handjet[ELGR,ELSH,wght]",
+    "Rubik80sFade-Regular",
+  ];
+  fontPaths = fontPaths.filter(p => !badFonts.includes(path.basename(p, '.ttf')));
+
   process({
     unitsPerEm: 1000,
     unicodes: [
-      [0x0021, 0x0022],
-      // [0x0020, 0x007F], // Basic Latin
+      [0x0020, 0x007F], // Basic Latin
       // [0x00A0, 0x00FF]  // Latin-1 Supplement
     ],
-    inputFonts: [
-      __dirname + '/../src/all-ttf/NunitoSans-Regular.ttf',
-      // __dirname + '/../src/all-ttf/Poppins-Bold.ttf'
-    ],
+    inputFonts: fontPaths,
     // output: __dirname + '/dist/fonts.bin'
-    output: __dirname + '/fonts.bin'
+    outputDir: __dirname + '/'
   });
 }
 

@@ -1,13 +1,13 @@
 import * as THREE from 'three';
-import { TrackballControls } from 'three/addons/controls/TrackballControls.js';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import gsap from "gsap";
 import Stats from 'three/examples/jsm/libs/stats.module.js';
-import FontFaceObserver from "fontfaceobserver"
-import { Text } from 'troika-three-text';
+import FontFaceObserver from "fontfaceobserver";
+// import pako from 'pako';
 
+// import { Character } from './font';
+// import { DataArray } from './dataarray';
 
-var load_once = true;
 var fontMeshes = [];
 
 let container, stats;
@@ -16,7 +16,6 @@ let texture_loader, file_loader;
 
 let INTERSECTED;
 let SELECTED;
-let theta = 0;
 
 const pointer = new THREE.Vector2();
 const radius = 100;
@@ -135,9 +134,6 @@ $(document).ready(function() {
 });
 
 
-//
-
-
 init();
 animate();
 
@@ -249,41 +245,21 @@ function initScene() {
   initTsne();
 
   if (DEBUG) {
+    initTest();
     initGrid();
   }
 }
 
-function getFontSubset(font, weight, text, posx, posy) {
-  let apiUrl = [];
-  apiUrl.push('https://font-fish-a692faa6de52.herokuapp.com/font?family=');
-  apiUrl.push(font);
-  apiUrl.push('&weight=');
-  apiUrl.push(weight);
-  apiUrl.push('&text=');
-  apiUrl.push(text);
-  let url = apiUrl.join('');
+async function initTest() {
+  const character = 'x'.charCodeAt(0);
+  console.log(character);
+  const response = await fetch(`./fonts/${character.toString().padStart(4, '0')}.bin.gz`);
+  var raw = await response.arrayBuffer();
 
-  try {
-    // const response = await fetch(url, {
-    //   method: 'GET',
-    //   mode: 'cors'
-    // });
-    // const result = await response.blob();
+  const data = await pako.ungzip(raw);
 
-    const myText = new Text();
-    scene.add(myText);
-    myText.text = text;
-    myText.font = url;
-    myText.color = 0x000000;
-    myText.fontSize = 1.5;
-    myText.position.x = posx;
-    myText.position.y = posy;
-    myText.sync();
-    return myText;
-
-  } catch (error) {
-    console.error('Error: ', error);
-  }
+  let a = new Character(new DataArray(data), character);
+  console.log(a);
 }
 
 function initGrid() {
@@ -298,18 +274,12 @@ function initTsne() {
   file_loader.load('font-coordinates-v4t.json', function( obj ) {
     const imagePositions = JSON.parse(obj);
     let fonts = Object.keys(imagePositions);
-    console.log(fonts);
+
+    if (DEBUG) {
+      console.log(fonts);
+    }
 
     for (let i = 0; i < fonts.length; i++) {
-    // for (let i = 0; i < 100; i++) {
-      // Load an image file into a custom material
-      // let slice = fonts[i].split(' ');
-      // let weight = slice.pop();
-      // let font = slice.join('');
-      // console.log(font);
-      // console.log(weight);
-      // getFontSubset('Source Sans Pro', '400', 'Hello World');
-      // let mesh = getFontSubset(font, weight, 'Handgloves', 0, 0);
       var material = new THREE.MeshLambertMaterial({
         map: texture_loader.load("previews/" + fonts[i] + ".png")
       });
@@ -325,9 +295,7 @@ function initTsne() {
       fontMeshes.push(mesh);
 
       mesh_map.set(mesh.uuid, fonts[i]);
-      // mesh_map.set(mesh.geometry.uuid, fonts[i]);
     }
-    load_once = false;
 
     view_tsne();
   });

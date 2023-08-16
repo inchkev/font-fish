@@ -28,6 +28,7 @@
     "fontfaceobserver": "^2.3.0",
     "fontkit": "^2.0.2",
     "gsap": "^3.11.5",
+    "pako": "^2.1.0",
     "stats.js": "^0.17.0",
     "three": "^0.151.3",
     "troika-three-text": "^0.48.0-unicode.3"
