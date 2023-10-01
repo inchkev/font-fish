@@ -4,8 +4,8 @@
   "description": "A browser tool for spatial font discovery and exploration",
   "main": "index.js",
   "scripts": {
-    "build": "esbuild js/index.js --bundle --outfile=dist/bundle.js --minify",
-    "dev": "esbuild js/index.js --bundle --outfile=dist/bundle.js --minify --sourcemap",
+    "build": "esbuild js/main.js --bundle --outfile=dist/bundle.js --minify",
+    "dev": "esbuild js/main.js --bundle --outfile=dist/bundle.js --sourcemap",
     "generate-paths": "node fonts/generate-paths.js",
     "serve": "serve -s dist/",
     "deploy": "git push origin `git subtree split --prefix dist main`:gh-pages --force"

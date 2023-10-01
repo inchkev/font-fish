@@ -2,12 +2,12 @@
 *~
 *.log
 *.js.meta
+*.map
 *.swp
 node_modules
 build
 npm-debug.log
 .env
-.map
 __pycache__
 
 # Swap
