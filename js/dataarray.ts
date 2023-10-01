@@ -1,19 +1,28 @@
-const INITIAL_CAPACITY = 1024;
+// Ported from https://github.com/evanw/theta/blob/c077923138be0f7aedc28cc0cd82d1066b1fe8fb/src/core/dataarray.sk
+
+const INITIAL_CAPACITY = 256;
 
 export class DataArray {
   private _bytes: Uint8Array;
-  _count: number = 0;
-  _capacity: number = INITIAL_CAPACITY;
-  _readOffset: number = 0;
+  private _count: number = 0;
+  private _capacity: number = INITIAL_CAPACITY;
+  private _readOffset: number = 0;
 
-  // constructor() {
-  //   this._bytes = new Uint8Array(INITIAL_CAPACITY);
-  // }
+  constructor(...args: any[]) {
+    if (args.length == 0) {
+      this._bytes = new Uint8Array(INITIAL_CAPACITY);
+      return;
+    }
 
-  constructor(bytes: Uint8Array) {
-    this._bytes = bytes;
-    this._count = this._capacity = bytes.length;
+    // yes, not very safe
+    this._bytes = args[0];
+    this._count = this._capacity = args[0].length;
   }
+
+  // constructor(bytes: Uint8Array) {
+  //   this._bytes = bytes;
+  //   this._count = this._capacity = bytes.length;
+  // }
 
   clear() {
     this._count = 0;
@@ -30,6 +39,10 @@ export class DataArray {
 
   readOffset(): number {
     return this._readOffset;
+  }
+
+  bytes(): Uint8Array {
+    return this._bytes.subarray(0, this._count);
   }
 
   private _grow() {
@@ -120,5 +133,43 @@ export class DataArray {
     let value = this.intAt(this._readOffset);
     this._readOffset += 4;
     return value;
+  }
+
+  //
+  // Float
+  //
+
+  floatAt(index: number): number {
+    if (!(index >= 0 && index + 4 <= this._count)) {
+      throw new Error("Index out of bounds");
+    }
+    let _bytes4 = new Uint8Array(4);
+    let _float = new Float32Array(_bytes4.buffer);
+    _bytes4[0] = this._bytes[index];
+    _bytes4[1] = this._bytes[index + 1];
+    _bytes4[2] = this._bytes[index + 2];
+    _bytes4[3] = this._bytes[index + 3];
+    return _float[0];
+  }
+
+  readFloat(): number {
+    let value = this.floatAt(this._readOffset);
+    this._readOffset += 4;
+    return value;
+  }
+
+  appendFloat(value: number): DataArray {
+    let _bytes4 = new Uint8Array(4);
+    let _float = new Float32Array(_bytes4.buffer);
+    _float[0] = value;
+    this.appendBytes(_bytes4);
+    return this;
+  }
+
+  appendFloats(values: number[]): DataArray {
+    for (const value of values) {
+      this.appendFloat(value);
+    }
+    return this;
   }
 }
