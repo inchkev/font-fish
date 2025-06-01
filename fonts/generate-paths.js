@@ -200,7 +200,7 @@ function main() {
       // [0x00A0, 0x00FF]  // Latin-1 Supplement
     ],
     inputFonts: fontPaths,
-    // output: __dirname + '/dist/fonts.bin'
+    // output: __dirname + '/www/fonts.bin'
     outputDir: __dirname + '/'
   });
 }
